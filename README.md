@@ -1,0 +1,2 @@
+# python-materiaali
+linkin pythonmateriaaleja
