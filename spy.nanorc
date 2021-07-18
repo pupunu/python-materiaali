@@ -1,0 +1,9 @@
+syntax suomi-python "\.spy$"
+
+color red "\<(lisää|määritä)\>"
+
+color blue "(\=|800|600|400|300|100)"
+
+color magenta "(@ikkuna\.tapahtuma|tyhjennä|piirtäessä|piirrä|suorita)"
+
+color yellow "\<(Ympyrä|Ikkuna)\>"
