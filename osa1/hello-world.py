@@ -1,12 +1,11 @@
 import pyglet
 
-window = pyglet.window.Window()
+ikkuna = pyglet.window.Window(width = 800, height = 600)
+ympyrä = pyglet.shapes.Circle(x = 400, y = 300, radius = 100)
 
-label = pyglet.text.Label("Hello, world")
-
-@window.event
+@ikkuna.event
 def on_draw():
-	window.clear()
-	label.draw()
+    ikkuna.clear()	
+    ympyrä.draw()
 
 pyglet.app.run()
