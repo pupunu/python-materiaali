@@ -37,6 +37,6 @@ pyglet.app.run()
 ```
 Nyt kun laitamme Python-ohjelmamme käytiin, näytölle ilmestyy tyhjä ruutu.
 
-![tyhjä ikkuna](tyhjäikkuna.png)
+![tyhjä ikkuna](tyhjä-ikkuna.png)
 
 Pygletin ikkuna on kuin liitutaulu. Siihen voi piirtää asioita tai taulun voi pyyhkiä tyhjäksi.
