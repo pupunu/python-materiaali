@@ -4,6 +4,7 @@
 
 ### Osa 0 - Pythonin ja Pygletin asennus
 - kuinka asentaa koneelle Python
+- Python-ohjelman perusteet
 - kuinka pipin avulla asentaa koneelle Pyglet.
 - Opitaan mitä ulkoiset kirjastot ovat.
 

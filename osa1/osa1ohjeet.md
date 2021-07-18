@@ -1,6 +1,6 @@
 # Osa 1 - Ikkuna ja ympyrä
 
-## Mikä on ikkuna
+## Mikä on ikkuna?
 
 Ikkuna on se mitä yleensä pidetään ohjelmana. Oikeasti ikkuna on kuitenkin vain se osa ohjelmaa, jonka kanssa käyttäjä on tekemisissä. Ikkuna huolehtii muun muassa siitä, että käyttäjä näkee näytöllä jotain, sekä seuraa mitä näppäimiä käyttäjä painaa tai missä hiiren osoitin kulkee.
 
@@ -13,26 +13,21 @@ Jotta voimme saada jotain kivaa näkyviin, tarvitsemme ikkunan. Pygletistä löy
 
 ## Tehdään ohjelma jolla on ikkuna!
 
-Tarvitsemme ikkunaa varten pyglettiä joten lisätään se ohjelmaan kirjoittamalla kooditiedoston alkuun:
+Tarvitsemme ikkunaa varten Pyglettiä joten lisätään se ohjelmaan kirjoittamalla kooditiedoston alkuun:
 
 ```Python3
 import pyglet
-
 ``` 
 
-Seuraavaksi luodaan meille ikkuna. Sanotaan siis ohjelmalle, että jokin asia nimeltä ikkuna on Pygletin ikkuna (eli Window). Lisäksi kerrotaan minkä kokoinen tämä ikkuna on. `width` tarkoittaa leveyttä ja `height` korkeutta.
+Seuraavaksi luodaan ikkuna. Sanotaan siis ohjelmalle, että jokin asia nimeltä ikkuna on Pygletin ikkuna (eli Window). Lisäksi kerrotaan minkä kokoinen tämä ikkuna on. `width` tarkoittaa leveyttä ja `height` korkeutta.
 
 ```Python3
-
-ikkuna = pyglet.window.Window(width=800, height=600)
-
+ikkuna = pyglet.window.Window(width = 800, height = 600)
 ```
 
-Nyt ohjelmalla on tiedossa ikkuna, mutta sillä ei tehdä vielä mitään. Haluamme, että Pyglet lähtee käyntiin, jolloin ikkuna tulee näkyviin. Lisätään siis aivan ohjelman koodin loppuu
+Nyt ohjelmalla on tiedossa ikkuna, mutta sillä ei tehdä vielä mitään. Haluamme, että Pyglet lähtee käyntiin, kun ohjelma suoritetaan, niin että ikkuna tulee näkyviin. Lisätään siis aivan ohjelman koodin loppuu
 
 ```Python3
-se osaa
-
 pyglet.app.run()
 ```
 Nyt kun laitamme Python-ohjelmamme käytiin, näytölle ilmestyy ikkuna, jossa on sotkua, mahdollisesti jotain tämännäköistä:
@@ -48,6 +43,18 @@ ikkuna.clear()
 ```
 
 Clear on englantia ja tarkoittaa tyhjentää.
+
+Tässä vaiheessa koodin pitäisi siis näyttää tältä:
+
+```Python3
+import pyglet
+
+ikkuna = pyglet.window.Window(width = 800, height = 600)
+
+ikkuna.clear()
+
+pyglet.app.run()
+```
 
 Nyt kun laitamme Python-ohjelman uudestaan päälle meille pitäisi ilmestyä tyhjä ruutu.
 
