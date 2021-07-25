@@ -2,7 +2,7 @@
 
 ## Python
 
-Python on ohjelmointikieli, eli jonkinlainen tapa kertoa tietokoneelle mitä sen pitää tehdä.
+Python on ohjelmointikieli, eli jonkinlainen tapa kertoa tietokoneelle mitä sen pitää tehdä. 
 
 ### Miten asentaa Python omalle koneelle
 
