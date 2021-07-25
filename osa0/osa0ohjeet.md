@@ -45,14 +45,36 @@ Kopioi siis tämä terminaaliin ja seuraa mahdollisia asennusohjeita.
 
 ### Pythonkoodin kirjoittaminen
 
-Kun koneelle on asennettu Python, osaa kone suorittaa pythonkoodia. Python-ohjelmat ovat tiedostoja joissa on tekstiä. Näitä tiedostoja voi kirjoittaa vaikkapa _Visual Studio Code_ -nimisellä ohjelmalla, tuttavallisemmin _vscode_. Pythonia voi ohjelmoida myös tietokoneesta riippuen muun muassa muistiolla, geditillä, vimillä ja IDLE:llä.
+Kun koneelle on asennettu Python, osaa kone suorittaa Pythonilla kirjoitettua koodia.
+Python-ohjelmat ovat tiedostoja joissa on tekstiä. Näitä tiedostoja voi kirjoittaa tietokoneesta riippuen muun muassa muistiolla, geditillä, vimillä ja IDLE:llä. Näin alkuun kannattaa käyttää IDLE:ä. Linuxilla voi myös käyttää tekstieditoria ja terminaalia.
 
-Seuraavaksi ohjeet askel askeleelta miten lähteä ohjelmoimaan pythonia vscodella.
+#### IDLE
 
-#### Asennetaan Visual Studio Code
+Pythonia asentaessa koneellesi on samalla asennettu IDLE-niminen editori. Avaa se ja se näyttää suunnilleen tältä:
 
-Lataa Visual Studio Code sen nettisivuilta osoitteesta [https://code.visualstudio.com/](https://code.visualstudio.com/) ja asenna se koneellesi.
+![kuva idlestä](IDLE-alku.PNG)
 
-Kun avaat vscoden, sen pitäisi näyttää kutakuinkin tältä:
+Tämä on IDLE:n oma terminaali jonne esimerkiksi ohjelma voi kirjoittaa tekstiä.
 
-![kuva vscoden etusivusta](vscode-alku.png)
+Luodaksesi tiedoston, mihin voit alkaa kirjoittaa koodia valitse IDLE:n ylälaidasta _File_ ja sieltä _New File_. Avautuu uusi ikkuna nimeltä _untitled_, johon koodia voi alkaa kirjoittaa.
+
+![kuva uudesta tiedostosta](IDLE-uusi-tiedosto.png)
+
+Tallenna juuri luotu tiedosto painamalla nappeja Ctrl ja S. Valitse mihin tallennat tiedoston ja anna tiedostolle nimi (vaikka moi). Omia koodauksia varten kannattanee tehdä oma kansio, että ne löytyvät myöhemmin helposti.
+
+Kun tiedosto on tallennettu, tiedoston ikkunan yläreunassa ei enää lue _untitled_ vaan tiedoston nimi. Nimi loppuu _.py_, josta tietokone tietää, että kyseessä on Python-ohjelma.
+
+Nyt voit alkaa kirjoittaa koodia tiedostoon. Aloitetaan yksinkertaisella ohjelmalla, joka tulostaa IDLE:n terminaaliin _moi_.
+
+Pythonissa saa tulostettua terminaaliin tekstiä komennolla _print_. Kirjoita tyhjään tiedostoon:
+```Python3
+print("moi")
+```
+Tallenna koodi painamalla taas Ctrl ja S. Nyt ohjelman voi suorittaa ikkunan ylälaidasta kohdasta _Run_, josta löytyy _Run Module_. Voit myös painaa näppäimistölläsi nappia f5 (löytyy näppäimistön yläreunasta).
+
+![kuva IDLE:stä](IDLE-run.png)
+
+Nyt IDLE:n terminaaliin tulostuu teksti _moi_, ja sen pitäisi näyttää suunnilleen tältä:
+
+![IDLE:n terminaalissa lukee moi](IDLE-moi.png)
+
