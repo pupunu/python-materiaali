@@ -32,7 +32,7 @@ pyglet.app.run()
 ```
 Nyt kun laitamme Python-ohjelmamme käytiin, näytölle ilmestyy ikkuna, jossa on sotkua. Näkymä on mahdollisesti jotain tämännäköistä:
 
-![sotkuinen ikkuna](sotku-ikkuna.png)
+![sotkuinen ikkuna](sotkuikkuna.png)
 
 Pygletin ikkuna on kuin liitutaulu. Siihen voi piirtää asioita tai taulun voi pyyhkiä tyhjäksi. 
 
