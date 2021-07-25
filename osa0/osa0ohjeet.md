@@ -74,7 +74,14 @@ Tallenna koodi painamalla taas Ctrl ja S. Nyt ohjelman voi suorittaa ikkunan yl�
 
 ![kuva IDLE:stä](IDLE-run.png)
 
-Nyt IDLE:n terminaaliin tulostuu teksti _moi_, ja sen pitäisi näyttää suunnilleen tältä:
+Nyt IDLE:n terminaaliin tulostuu teksti _moi_, ja se näyttää suunnilleen tältä:
 
 ![IDLE:n terminaalissa lukee moi](IDLE-moi.png)
 
+Onnittelut! Teit ensimmäisen Python-ohjelmasi :)
+
+## Pyglet
+
+Kaikkea ohjelmoidessa ei kannata tehdä itse. Sen sijaan ohjelmoidessa kannattaa käyttää apuna muiden tekemiä _kirjastoja_. Kirjastojen idea on, että joku muu on tehnyt koodia, jota voi kätevästi käyttää itse niin, että säästyy suurelta määrältä työtä.
+
+Pyglet on Pythonille tarkoitettu kirjasto, josta löytyy pelien tekemistä varten kaikenlaista kätevää.
