@@ -1,4 +1,4 @@
-# Osa 1 - Ikkuna ja ympyrä
+# Osa 1 - Ikkuna
 
 ## Mikä on ikkuna?
 
@@ -60,49 +60,3 @@ Nyt kun laitamme Python-ohjelman uudestaan päälle meille pitäisi ilmestyä ty
 
 ![tyhjä ikkuna](tyhjä-ikkuna.png)
 
-## Lisätään ikkunaan ympyrä
-
-Pelkkä musta ikkuna on vähän tylsä. Lisätään siis ikkunaan ympyrä.
-Pygletistä löytyy ympyröitä varten olio ympyrä eli `Circle`. Ei pohdita nyt sen enempää mikä ympyrä on, vaan voit kopioida alla olevan koodin, joka luo ympyrän nimeltä ympyrä.
-
-```Python3
-ympyrä = pyglet.shapes.Circle(x = 400, y = 300, radius = 100)
-```
-
-Laita koodi ikkunan luomisen jälkeen.
-
-Jotta ympyrä tulisi näytölle, se pitää piirtää ruutuun erikseen. Sen saa aikaiseksi seuraavalla koodilla:
-
-```Python3
-@ikkuna.event
-def on_draw():
-    ympyrä.draw()
-```
-
-Pohditaan seuraavassa osassa tarkemmin mitä tämä koodi tekee. Nyt riittää, että se lisätään koodiin ennen koodien `ikkuna.clear()` ja `pyglet.app.run()` väliin.
-
-Python-ohjelman pitäisi nyt siis kokonaisuudessaan näyttää tältä:
-```Python3
-import pyglet
-
-ikkuna = pyglet.window.Window(width = 800, height = 600)
-ympyrä = pyglet.shapes.Circle(x = 400, y = 300, radius = 100)
-
-ikkuna.clear()
-
-@ikkuna.event
-def on_draw():
-    ympyrä.draw()
-
-pyglet.app.run()
-```
-
-Nyt kun laitamme ohjelman käyntiin, saamme seuraavanlaisen näkymän:
-
-![ympyrä ikkunassa](pallo-ikkunassa.png)
-
-## Koodi suomeksi
-
-Pythonissa ja pygletissä lähes kaikki komennot ovat englanniksi. Tässä on käännös miltä ohjelmamme näyttäisi jos Python ja Pyglet olisivat suomenkielisiä.
-
-![ohjelma suomeksi](hello-world-suomeksi.png)

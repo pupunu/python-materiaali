@@ -1,79 +1,48 @@
-# Osa 2 - Ikkunatapahtumien käsittely
-Pelin olessa käynnissä pelaaja haluaa vaikuttaa pelin toimintaan. Tämä toteutetaan ikkunatapahtumilla, jotka ovat funktiokutsuja, joita ikkuna tietää suorittaa tapahtuman toteutuessa. Yleisiä ikkunatapahtumia ovat mm. ikkunan avautuminen ja sulkeutuminen tai napin painaminen ikkunan olessa aktiivinen. Pygletissä ikkunatapahtumia lisätään kutakuinkin näin.
+# Osa 2 - Ympyrä
+
+## Lisätään ikkunaan ympyrä
+
+Pelkkä musta ikkuna on vähän tylsä. Lisätään siis ikkunaan ympyrä.
+Pygletistä löytyy ympyröitä varten olio ympyrä eli `Circle`. Ei pohdita nyt sen enempää mikä ympyrä on, vaan voit kopioida alla olevan koodin, joka luo ympyrän nimeltä ympyrä.
 
 ```Python3
-@ikkuna.event          
-def ikkunatapahtuma():
-	# Tästä alkaa sinun koodisi (muista rivin sisennys)
+ympyrä = pyglet.shapes.Circle(x = 400, y = 300, radius = 100)
 ```
 
-* `@ikkuna.event` kertoo, että kyseessä on ikkunatapahtuma.
-* `def ikkunatapahtuma():` kertoo, mikä tapahtuma on kyseessä
-* Sen jälkeen tuleva sisennetty koodi kertoo mitä tapahtuman tapahtuessa tulee tehdä.
->> Huom! `ikkuna` voi olla sinulla toisen niminen. Pygletissä ikkunatapahtumat ovat ennalta nimettyjä.
+Laita koodi ikkunan luomisen jälkeen.
 
-## Jatketaan ensimmäisen osan ohjelmaa
-
-Viime kerralla teimme ikkunnan, johon piirrettiin ympyrä. Voimme jatkaa ohjelmaa lisäämällä ikkunalle toiminnallisuutta ikkunatapahtumilla. Lisää koodiin ikkunan luomisen jälkeen ja ennen `pyglet.app.run`ia ikkunatapahtuma `on_key_press`. Tämä tapahtuma käsittelee ikkunan napinpainallukset:
+Jotta ympyrä tulisi näytölle, se pitää piirtää ruutuun erikseen. Sen saa aikaiseksi seuraavalla koodilla:
 
 ```Python3
 @ikkuna.event
-def on_key_press(merkki, muuntaja):
-	# Tästä alkaa sinun koodisi (muista rivin sisennys)
+def on_draw():
+    ympyrä.draw()
 ```
 
-Tämän tapahtuman sisällä voimme vaikuttaa ympyrään, kuten vaihtaa ympyrän väriä. Seuraava koodi muuttaa ympyrän värin punaiseksi:
+Pohditaan seuraavassa osassa tarkemmin mitä tämä koodi tekee. Nyt riittää, että se lisätään koodiin ennen koodien `ikkuna.clear()` ja `pyglet.app.run()` väliin.
 
+Python-ohjelman pitäisi nyt siis kokonaisuudessaan näyttää tältä:
 ```Python3
-ympyrä.color = 255, 0, 0
-```
+import pyglet
 
-Voimme lisätä rivin ikkunatapahtumaan:
+ikkuna = pyglet.window.Window(width = 800, height = 600)
+ympyrä = pyglet.shapes.Circle(x = 400, y = 300, radius = 100)
 
-```Python3
+ikkuna.clear()
+
 @ikkuna.event
-def on_key_press(merkki, muuntaja):
-	ympyrä.color = 255, 0, 0
+def on_draw():
+    ympyrä.draw()
+
+pyglet.app.run()
 ```
 
-Nyt käynnistäessä pelin ja painaessa mitä tahansa näppäimistön nappia pallon väri vaihtuu punaiseksi. Lisätään vielä toinen ikkunatapahtuma, jolla painamisen loppuessa väri vaihtuu takaisin alkuperäiseen. Koodi näyttää kutakuinkin samalta:
+Nyt kun laitamme ohjelman käyntiin, saamme seuraavanlaisen näkymän:
 
-```Python3
-@ikkuna.event
-def on_key_release(merkki, muuntaja):
-	ympyrä.color = 255, 255, 255
-```
+![ympyrä ikkunassa](pallo-ikkunassa.png)
 
-Tämän lisätessä ohjelmaan voimme pelin aikana tehdä pallosta punaisen painamalla pohjassa nappia.
+## Koodi suomeksi
 
----
--- leikkaa seuraavaan osaan. --
+Pythonissa ja pygletissä lähes kaikki komennot ovat englanniksi. Tässä on käännös miltä ohjelmamme näyttäisi jos Python ja Pyglet olisivat suomenkielisiä.
 
-Nyt käynnistäessämme pelin voimme huomata nappia painaessamme ympyrän värin vaihtuvan. Tällä hetkellä ohjelmaa ei kiinnosta mitä nappia painetaan. Muokataan koodia niin, että väri vaihtuu vain tietystä napista. Tapahtuma kirjaa ylös muuttujaan merkki mitä nappia on painetta.
-
-Voimme kokeilla on merkissä oleva nappi sama kuin nappia "A" tällä tavalla:
-
-```Python3
-merkki == pyglet.window.key.A
-```
-
-Laittamalla `A`:n tilalle muita merkkejä voimme kokeilla muiden nappien varalta.
-
-```Python3
-@ikkuna.event
-def on_key_press(merkki, muuntaja):
-	if merkki == pyglet.window.key.A:
-		ympyrä.color = 255, 0, 0
-```
-
-```Python3
-@ikkuna.event
-def on_key_press(merkki, muuntaja):
-	if merkki == pyglet.window.key._1:
-		ympyrä.color = 255, 0, 0
-	elif merkki == pyglet.window.key._2:
-		ympyrä.color = 0, 255, 0
-	elif merkki == pyglet.window.key._3:
-		ympyrä.color = 0, 0, 255
-```
-
+![ohjelma suomeksi](hello-world-suomeksi.png)
