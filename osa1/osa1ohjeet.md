@@ -31,7 +31,7 @@ Sanotaan siis ohjelmalle, että muuttujassa nimeltä ikkuna on sisällä Pygleti
 ikkuna = pyglet.window.Window(width = 800, height = 600)
 ```
 
-Nyt ohjelmalla on tiedossa ikkuna, mutta sillä ei tehdä vielä mitään. Haluamme, että Pyglet lähtee käyntiin, kun ohjelma laitetaan päälle, jolloin ikkuna tulee näkyviin. Lisätään siis aivan ohjelman koodin loppuu
+Nyt ohjelmalla on tiedossa ikkuna, mutta sillä ei tehdä vielä mitään. Haluamme että kun ohjelma laitetaan päälle, Pyglet lähtee käyntiin, jolloin ikkuna tulee näkyviin. Lisätään siis aivan ohjelman koodin loppuun:
 
 ```Python3
 pyglet.app.run()
