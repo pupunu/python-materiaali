@@ -19,13 +19,19 @@ Tarvitsemme ikkunaa varten Pyglettiä joten lisätään se ohjelmaan kirjoittama
 import pyglet
 ``` 
 
-Seuraavaksi luodaan ikkuna. Sanotaan siis ohjelmalle, että jokin asia nimeltä ikkuna on Pygletin ikkuna eli `Window`. Lisäksi kerrotaan minkä kokoinen tämä ikkuna on. `width` tarkoittaa leveyttä ja `height` korkeutta.
+Seuraavaksi luodaan ikkuna. Pygletissä ikkunan nimi on `Window`, joka on englantia ja tarkoittaa ikkunaa. Ikkunan voi luoda komennolla `pyglet.window.Window()`. 
+
+Jotta voimme käyttää ikkunaa myöhemmin koodissa, tulee se laittaa johonkin talteen. Tätä varten tarvitsemme muuttujan. Muuttuja on kuin laatikko tietokoneen muistissa. Annamme laatikolle nimen ja laitamme ikkunan sinne talteen. Myöhemmin voimme kertoa ohjelmalle minkä nimisestä laatikosta ikkuna löytyy, ja voimme käyttää ikkunaamme uudestaan.
+
+![laatikosto jonne laitetaan ikkuna](muuttujalaatikko.png)
+
+Sanotaan siis ohjelmalle, että muuttujassa nimeltä ikkuna on sisällä Pygletin  `Window`. Kerrotaan lisäksi minkä kokoinen tämä ikkuna on. `width` tarkoittaa leveyttä ja `height` korkeutta. Tämän voi tehdä seuraavalla koodilla:
 
 ```Python3
 ikkuna = pyglet.window.Window(width = 800, height = 600)
 ```
 
-Nyt ohjelmalla on tiedossa ikkuna, mutta sillä ei tehdä vielä mitään. Haluamme, että Pyglet lähtee käyntiin, kun ohjelma suoritetaan, niin että ikkuna tulee näkyviin. Lisätään siis aivan ohjelman koodin loppuu
+Nyt ohjelmalla on tiedossa ikkuna, mutta sillä ei tehdä vielä mitään. Haluamme, että Pyglet lähtee käyntiin, kun ohjelma laitetaan päälle, jolloin ikkuna tulee näkyviin. Lisätään siis aivan ohjelman koodin loppuu
 
 ```Python3
 pyglet.app.run()
@@ -36,13 +42,13 @@ Nyt kun laitamme Python-ohjelmamme käytiin, näytölle ilmestyy ikkuna, jossa o
 
 Pygletin ikkuna on kuin liitutaulu. Siihen voi piirtää asioita tai taulun voi pyyhkiä tyhjäksi. 
 
-Pygletin ikkunan saa pyyhittyä tyhjäksi sanomalla ikkunalle, että sen pitää pyyhkiytyä. Tätä varten lisätään koodiin **ennen** koodia `pyglet.app.run()` seuraavanlainen koodinpätkä:
+Pygletin ikkunan saa pyyhittyä tyhjäksi sanomalla ikkunalle, että sen pitää pyyhkiytyä.Tätä varten lisätään koodiin **ennen** koodia `pyglet.app.run()` seuraavanlainen koodinpätkä:
 
 ```Python3
 ikkuna.clear()
 ```
 
-`clear` on englantia ja tarkoittaa tyhjentää.
+ Ikkuna on aikaisemmin tallennettu muuttujaan ikkuna. Voimme siis sanoa, että pitää tyhjentää se mitä on muuttujassa ikkuna. `clear` on englantia ja tarkoittaa tyhjentää.
 
 Tässä vaiheessa koodin pitäisi siis näyttää tältä:
 
