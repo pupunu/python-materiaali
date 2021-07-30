@@ -2,8 +2,8 @@
 
 ## Lisätään ikkunaan ympyrä
 
-Pelkkä musta ikkuna on vähän tylsä. Lisätään siis ikkunaan ympyrä.
-Pygletistä löytyy ympyröitä varten olio ympyrä eli `Circle`. Ei pohdita nyt sen enempää mikä ympyrä on, vaan voit kopioida alla olevan koodin, joka luo ympyrän nimeltä ympyrä.
+Edellisessä osassa teimme ohjelman, jolla on ikkuna. Pelkkä musta ikkuna on vähän tylsä. Lisätään siis ikkunaan ympyrä.
+Pygletistä löytyy ympyröitä varten olio ympyrä eli `Circle`. Ei pohdita nyt sen enempää mikä ympyrä on, vaan voit kopioida alla olevan koodin, joka luo ympyrän ja laittaa sen säilöön muuttujaan nimeltä ympyrä.
 
 ```Python3
 ympyrä = pyglet.shapes.Circle(x = 400, y = 300, radius = 100)
@@ -11,7 +11,7 @@ ympyrä = pyglet.shapes.Circle(x = 400, y = 300, radius = 100)
 
 Laita koodi ikkunan luomisen jälkeen.
 
-Jotta ympyrä tulisi näytölle, se pitää piirtää ruutuun erikseen. Sen saa aikaiseksi seuraavalla koodilla:
+Jotta ympyrä tulisi näytölle, se pitää piirtää ruutuun. Sen saa aikaiseksi seuraavalla koodilla:
 
 ```Python3
 @ikkuna.event
@@ -19,7 +19,7 @@ def on_draw():
     ympyrä.draw()
 ```
 
-Pohditaan seuraavassa osassa tarkemmin mitä tämä koodi tekee. Nyt riittää, että se lisätään koodiin ennen koodien `ikkuna.clear()` ja `pyglet.app.run()` väliin.
+Pohditaan seuraavassa osassa tarkemmin mitä tämä koodi tekee. Nyt riittää, että se lisätään ohjelmaan koodien `ikkuna.clear()` ja `pyglet.app.run()` väliin.
 
 Python-ohjelman pitäisi nyt siis kokonaisuudessaan näyttää tältä:
 ```Python3
