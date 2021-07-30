@@ -25,7 +25,7 @@ Jotta voimme käyttää ikkunaa myöhemmin koodissa, tulee se laittaa johonkin t
 
 ![laatikosto jonne laitetaan ikkuna](muuttujalaatikko.png)
 
-Sanotaan siis ohjelmalle, että muuttujassa nimeltä ikkuna on sisällä Pygletin  `Window`. Kerrotaan lisäksi minkä kokoinen tämä ikkuna on. `width` tarkoittaa leveyttä ja `height` korkeutta. Tämän voi tehdä seuraavalla koodilla:
+Sanotaan siis ohjelmalle, että muuttujassa nimeltä ikkuna on sisällä Pygletin  `Window`. Kerrotaan lisäksi Pygletin ikkunalle minkä kokoinen sen kuuluu olla. `width` tarkoittaa leveyttä ja `height` korkeutta. Tämän voi tehdä seuraavalla koodilla:
 
 ```Python3
 ikkuna = pyglet.window.Window(width = 800, height = 600)
