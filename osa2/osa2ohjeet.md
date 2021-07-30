@@ -11,7 +11,7 @@ ympyrä = pyglet.shapes.Circle(x = 400, y = 300, radius = 100)
 
 Laita koodi ikkunan luomisen jälkeen.
 
-Jotta ympyrä tulisi näytölle, se pitää piirtää ruutuun. Sen saa aikaiseksi seuraavalla koodilla:
+Jotta ympyrä tulisi näytölle, se pitää piirtää ikkunaan. Sen saa aikaiseksi seuraavalla koodilla:
 
 ```Python3
 @ikkuna.event
