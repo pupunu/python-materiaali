@@ -116,6 +116,8 @@ Pygletin saa asennettua kirjoittamalla terminaaliin seuraava komento:
 
 ```pip install pyglet --user```
 
+Seuraa mahdollisia asennusohjeita.
+
 Nyt pyglet on asennettu ja voit käyttää sitä ohjelmissasi.
 
 ### Pygletin käyttö
