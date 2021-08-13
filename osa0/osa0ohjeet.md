@@ -105,7 +105,7 @@ Valitse hakutuloksista komentokehote ja sinulle pitäisi aueta seuraavanlainen n
 
 #### Terminaali Applen koneella
 
-Paina ⌘ ja välilyöntiä samana aikaan ja kirjoita ilmestyneeseen hakukenttään _terminaali_ tai jos koneesi on englanniksi _terminal_. Avaa terminaali.
+Paina ⌘ ja välilyöntiä samaan aikaan ja kirjoita ilmestyneeseen hakukenttään _terminaali_ tai jos koneesi on englanniksi _terminal_. Avaa terminaali.
 
 ---
 
