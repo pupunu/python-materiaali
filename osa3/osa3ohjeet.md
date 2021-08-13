@@ -10,7 +10,7 @@ def ikkunatapahtuma():
 * `@ikkuna.event` kertoo, että kyseessä on ikkunatapahtuma.
 * `def ikkunatapahtuma():` kertoo, mikä tapahtuma on kyseessä
 * Sen jälkeen tuleva sisennetty koodi kertoo mitä tapahtuman tapahtuessa tulee tehdä.
->> Huom! `ikkuna` voi olla sinulla toisen niminen. Pygletissä ikkunatapahtumat ovat ennalta nimettyjä.
+> Huom! `ikkuna` voi olla sinulla toisen niminen. Pygletissä ikkunatapahtumat ovat ennalta nimettyjä.
 
 ## Jo tuttu ikkunatapahtuma
 Olemme jo hyödyntäneet yhtä ikkunatapahtumista, nimittäin `on_draw`:ta, jolla saadaan piirrettyä näytölle asioita. `on_draw`:ta kutsuessa olisi hyvä tyhjentää ikkuna siltä varalta, jos tietokone on vahingossa sotkenut ikkunaa sitä käsitellessään. Laita komento `ikkuna.clear()` ennen kuin piirrät muita asioita näytölle, koska muuten myös ne tyhjennetään.
