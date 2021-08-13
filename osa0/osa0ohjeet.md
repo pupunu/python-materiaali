@@ -27,7 +27,7 @@ Ladattuasi kyseisen paketin, suorita se klikkaamalla ja asenna ohjeiden mukaises
 #### Linux-konelle
 
 Suurimmassa osassa linux-koneita on Python valmiiksi. Voit tarkistaa löytyykö sinulta jo Python näin:
-- Avaa komentorivi painamassa nappeja Ctrl, Alt ja T.
+- Avaa komentorivi painamalla samaan aikaan nappeja Ctrl, Alt ja T.
 - Kirjoita komentoriville
 ```bash
 python3 --version
