@@ -88,22 +88,26 @@ Pyglet on Pythonille tarkoitettu kirjasto, josta löytyy pelien tekemistä varte
 
 ### pip ja Pygletin asennus
 
-Python-kirjastoja voi asentaa pip:llä. Uusimpien Pythonasennusten mukana asentuu myös pip.
+Python-kirjastoja voi asentaa pip:llä. Uusimpien Python-asennusten mukana asentuu myös pip.
 
 >> Jos käytät linux-konetta, voit tarkistaa onko sinulla pip kirjoittamalla terminaaliin `pip --version`. Jos terminaaliin tulostuu pipin versio, sinulla on jo pip. Muuten voit asentaa sen kirjoittamalla terminaaliin `sudo apt-get install pip` ja seuraamalla terminaalin antamia asennusohjeita.
 
 Kun koneella on pip, mennään asentamaan Pyglet! Avaa koneesi terminaali.
 
-### Terminaali Windows-koneella
-Paina Windows-näppäintä ja kirjoita hakukenttään `komentokehote` tai jos koneesi on englanniksi `command prompt`.
+#### Terminaali Windows-koneella
+Paina Windows-näppäintä ja kirjoita hakukenttään _komentokehote_ tai jos koneesi on englanniksi _command prompt_.
 
 ![hakukentässä komentokehote](windows-terminaalin-avaus.png)
 
-Valitse hautuloksista komentokehote ja sinulle pitäisi aueta seuraavanlainen näkymä:
+Valitse hakutuloksista komentokehote ja sinulle pitäisi aueta seuraavanlainen näkymä:
 
 ![windowsin komentokehote](windows-komentokehote.png)
 
-### Terminaali Applen koneella
+#### Terminaali Applen koneella
+
+Paina ⌘ ja välilyöntiä samana aikaan ja kirjoita ilmestyneeseen hakukenttään _terminaali_ tai jos koneesi on englanniksi _terminal_. Avaa terminaali.
+
+---
 
 Pygletin saa asennettua kirjoittamalla terminaaliin seuraava komento:
 

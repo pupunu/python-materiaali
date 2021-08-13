@@ -9,7 +9,6 @@
 - Opitaan mitä ulkoiset kirjastot ovat.
 
 ### Osa 1 - Ikkuna
-Osassa 1 opitaan:
 - mikä on ikkuna
 - miten luoda pygletissä ikkuna
 - muuttujat
@@ -19,7 +18,6 @@ Osassa 1 opitaan:
 - miten lisätä ikkunaan ympyrä
 
 ### Osa 3 - Ikkunatapahtumat
-Osassa 2 opitaan:
 - mitä ovat ikkunatapahtumat (window event)
 - ikkunatapahtuma on_key_press
 
@@ -28,8 +26,7 @@ Osassa 2 opitaan:
 - miten ympyrän väriä saa vaihdettua nappia painamalla
 
 ### Osa 5 - aikataulutus
-Osassa 3 opitaan:
-- kellom (clock) käyttö ohjelman aikataulutuksessa
+- kellon (clock) käyttö ohjelman aikataulutuksessa
 
 ### Osa 6 - Yhdistetään on_key_press ja aikataulutus
 Osassa 4 opitaan miten saada ympyrä liikkumaan ylös-alas ikkunassa.
