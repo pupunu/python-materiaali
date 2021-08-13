@@ -107,6 +107,9 @@ Valitse hakutuloksista komentokehote ja sinulle pitäisi aueta seuraavanlainen n
 
 Paina ⌘ ja välilyöntiä samaan aikaan ja kirjoita ilmestyneeseen hakukenttään _terminaali_ tai jos koneesi on englanniksi _terminal_. Avaa terminaali.
 
+#### Terminaali Linux-koneella
+Paina nappeja Ctrl, Alt ja T samaan aikaan.
+
 ---
 
 Pygletin saa asennettua kirjoittamalla terminaaliin seuraava komento:
