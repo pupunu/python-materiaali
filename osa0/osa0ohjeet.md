@@ -97,11 +97,11 @@ Kun koneella on pip, mennään asentamaan Pyglet! Avaa koneesi terminaali.
 #### Terminaali Windows-koneella
 Paina Windows-näppäintä ja kirjoita hakukenttään _komentokehote_ tai jos koneesi on englanniksi _command prompt_.
 
-![hakukentässä komentokehote](windows-terminaalin-avaus.png)
+![hakukentässä komentokehote](osa0-kuvat/windows-terminaalin-avaus.png)
 
 Valitse hakutuloksista komentokehote ja sinulle pitäisi aueta seuraavanlainen näkymä:
 
-![windowsin komentokehote](windows-komentokehote.png)
+![windowsin komentokehote](osa0-kuvat/windows-komentokehote.png)
 
 #### Terminaali Applen koneella
 

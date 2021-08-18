@@ -39,10 +39,10 @@ pyglet.app.run()
 
 Nyt kun laitamme ohjelman käyntiin, saamme seuraavanlaisen näkymän:
 
-![ympyrä ikkunassa](pallo-ikkunassa.png)
+![ympyrä ikkunassa](osa2-kuvat/pallo-ikkunassa.png)
 
 ## Koodi suomeksi
 
 Pythonissa ja pygletissä lähes kaikki komennot ovat englanniksi. Tässä on käännös miltä ohjelmamme näyttäisi jos Python ja Pyglet olisivat suomenkielisiä.
 
-![ohjelma suomeksi](hello-world-suomeksi.png)
+![ohjelma suomeksi](osa2-kuvat/hello-world-suomeksi.png)
