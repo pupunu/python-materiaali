@@ -90,7 +90,7 @@ Pyglet on Pythonille tarkoitettu kirjasto, josta löytyy pelien tekemistä varte
 
 Python-kirjastoja voi asentaa pip:llä. Uusimpien Python-asennusten mukana asentuu myös pip.
 
->> Jos käytät linux-konetta, voit tarkistaa onko sinulla pip kirjoittamalla terminaaliin `pip --version`. Jos terminaaliin tulostuu pipin versio, sinulla on jo pip. Muuten voit asentaa sen kirjoittamalla terminaaliin `sudo apt-get install pip` ja seuraamalla terminaalin antamia asennusohjeita.
+> Jos käytät linux-konetta, voit tarkistaa onko sinulla pip kirjoittamalla terminaaliin `pip --version`. Jos terminaaliin tulostuu pipin versio, sinulla on jo pip. Muuten voit asentaa sen kirjoittamalla terminaaliin `sudo apt-get install pip` ja seuraamalla terminaalin antamia asennusohjeita.
 
 Kun koneella on pip, mennään asentamaan Pyglet! Avaa koneesi terminaali.
 

@@ -29,4 +29,4 @@
 - kellon (clock) käyttö ohjelman aikataulutuksessa
 
 ### Osa 6 - Yhdistetään on_key_press ja aikataulutus
-Osassa 4 opitaan miten saada ympyrä liikkumaan ylös-alas ikkunassa.
+-opitaan miten saada ympyrä liikkumaan ylös-alas ikkunassa.
