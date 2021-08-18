@@ -5,7 +5,7 @@
 Ikkuna on se mitä yleensä pidetään ohjelmana. Oikeasti ikkuna on kuitenkin vain se osa ohjelmaa, jonka kanssa käyttäjä on tekemisissä. Ikkuna huolehtii muun muassa siitä, että käyttäjä näkee näytöllä jotain, sekä seuraa mitä näppäimiä käyttäjä painaa tai missä hiiren osoitin kulkee.
 
 Tässä on esimerkki Miinaharava-pelin ikkunasta:
-![kuva miinaharavasta](miinaharavaikkuna.png)
+![kuva miinaharavasta](osa1-kuvat/miinaharavaikkuna.png)
 
 ## Pygletin ikkuna
 
@@ -23,7 +23,7 @@ Seuraavaksi luodaan ikkuna. Pygletissä ikkunan nimi on `Window`, joka on englan
 
 Jotta voimme käyttää ikkunaa myöhemmin koodissa, tulee se laittaa johonkin talteen. Tätä varten tarvitsemme muuttujan. Muuttuja on kuin laatikko tietokoneen muistissa. Annamme laatikolle nimen ja laitamme ikkunan sinne talteen. Myöhemmin voimme kertoa ohjelmalle minkä nimisestä laatikosta ikkuna löytyy, ja voimme käyttää ikkunaamme uudestaan.
 
-![laatikosto jonne laitetaan ikkuna](muuttujalaatikko.png)
+![laatikosto jonne laitetaan ikkuna](osa1-kuvat/muuttujalaatikko.png)
 
 Sanotaan siis ohjelmalle, että muuttujassa nimeltä ikkuna on sisällä Pygletin  `Window`. Kerrotaan lisäksi Pygletin ikkunalle minkä kokoinen sen kuuluu olla. `width` tarkoittaa leveyttä ja `height` korkeutta. Tämän voi tehdä seuraavalla koodilla:
 
@@ -38,7 +38,7 @@ pyglet.app.run()
 ```
 Nyt kun laitamme Python-ohjelmamme käytiin, näytölle ilmestyy ikkuna, jossa on sotkua. Näkymä on mahdollisesti jotain tämännäköistä:
 
-![sotkuinen ikkuna](sotkuikkuna.png)
+![sotkuinen ikkuna](osa1-kuvat/sotkuikkuna.png)
 
 Pygletin ikkuna on kuin liitutaulu. Siihen voi piirtää asioita tai taulun voi pyyhkiä tyhjäksi. 
 
@@ -64,5 +64,5 @@ pyglet.app.run()
 
 Nyt kun laitamme Python-ohjelman uudestaan päälle meille pitäisi ilmestyä tyhjä ruutu.
 
-![tyhjä ikkuna](tyhjä-ikkuna.png)
+![tyhjä ikkuna](osa1-kuvat/tyhjä-ikkuna.png)
 

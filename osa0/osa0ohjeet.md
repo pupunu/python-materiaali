@@ -12,7 +12,7 @@ Jotta tietokone osaa lukea Pythonilla kirjoitettua koodia, pitää koneelle olla
 
 Python Windowsille löytyy osoitteesta [https://www.python.org/downloads/windows/](https://www.python.org/downloads/windows/). Valitse sivulla olevista linkeistä _Latest Python 3 release_ eli viimeisin Python 3 -julkaisu.
 
-![kuva pythonin nettisivuilta](latest-python-3-release-windows.png)
+![kuva pythonin nettisivuilta](osa0-kuvat/latest-python-3-release-windows.png)
 
 Ladattuasi kyseisen paketin, suorita se ja asenna saamiesi ohjeiden mukaisesti.
 
@@ -20,7 +20,7 @@ Ladattuasi kyseisen paketin, suorita se ja asenna saamiesi ohjeiden mukaisesti.
 
 Python Applen koneille löytyy osoitteesta [https://www.python.org/downloads/mac-osx/](https://www.python.org/downloads/mac-osx/). Valitse sivulla olevista linkeistä _Latest Python 3 release_ eli viimeisin Python 3 -julkaisu.
 
-![kuva pythonin nettisivuilta](latest-python-3-release-mac.png)
+![kuva pythonin nettisivuilta](osa0-kuvat/latest-python-3-release-mac.png)
 
 Ladattuasi kyseisen paketin, suorita se klikkaamalla ja asenna ohjeiden mukaisesti.
 
@@ -34,7 +34,7 @@ python3 --version
 ```
 Jos koneelle on jo asennettu Python, terminaaliin pitäisi tulostua Pythonin versio näin:
 
-![terminaali, jossa lukee Python version 3.6.9](pythonversio.png)
+![terminaali, jossa lukee Python version 3.6.9](osa0-kuvat/pythonversio.png)
 
 Jos tietokone ei kerro Pythonin versiota, koneella ei ole Pythonia. Sen saa asennettua suurimmassa osassa linuxeja termiaalista komennolla:
 
@@ -52,13 +52,13 @@ Python-ohjelmat ovat tiedostoja joissa on tekstiä. Näitä tiedostoja voi kirjo
 
 Pythonia asentaessa koneellesi on samalla asennettu IDLE-niminen editori. Avaa se ja se näyttää suunnilleen tältä:
 
-![kuva idlestä](IDLE-alku.PNG)
+![kuva idlestä](osa0-kuvat/IDLE-alku.PNG)
 
 Tämä on IDLE:n oma terminaali jonne esimerkiksi ohjelma voi kirjoittaa tekstiä.
 
 Luodaksesi tiedoston, mihin voit alkaa kirjoittaa koodia valitse IDLE:n ylälaidasta _File_ ja sieltä _New File_. Avautuu uusi ikkuna nimeltä _untitled_, johon koodia voi alkaa kirjoittaa.
 
-![kuva uudesta tiedostosta](IDLE-uusi-tiedosto.png)
+![kuva uudesta tiedostosta](osa0-kuvat/IDLE-uusi-tiedosto.png)
 
 Tallenna juuri luotu tiedosto painamalla nappeja Ctrl ja S. Valitse mihin tallennat tiedoston ja anna tiedostolle nimi (vaikka moi). Omia koodauksia varten kannattanee tehdä oma kansio, että ne löytyvät myöhemmin helposti.
 
@@ -72,11 +72,11 @@ print("moi")
 ```
 Tallenna koodi painamalla taas Ctrl ja S. Nyt ohjelman voi suorittaa ikkunan ylälaidasta kohdasta _Run_, josta löytyy _Run Module_. Voit myös painaa näppäimistölläsi nappia f5 (löytyy näppäimistön yläreunasta).
 
-![kuva IDLE:stä](IDLE-run.png)
+![kuva IDLE:stä](osa0-kuvat/IDLE-run.png)
 
 Nyt IDLE:n terminaaliin tulostuu teksti _moi_, ja se näyttää suunnilleen tältä:
 
-![IDLE:n terminaalissa lukee moi](IDLE-moi.png)
+![IDLE:n terminaalissa lukee moi](osa0-kuvat/IDLE-moi.png)
 
 Onnittelut! Teit ensimmäisen Python-ohjelmasi :)
 
