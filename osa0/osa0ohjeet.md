@@ -112,7 +112,7 @@ Paina nappeja Ctrl, Alt ja T samaan aikaan.
 
 ---
 
-Pygletin saa asennettua kirjoittamalla terminaaliin seuraava komento:
+Pygletin saa asennettua kirjoittamalla terminaaliin komento:
 
 ```pip install pyglet --user```
 
