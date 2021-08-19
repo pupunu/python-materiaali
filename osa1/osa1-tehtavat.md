@@ -1,6 +1,6 @@
 # Osa 1 - Ikkuna ja ympyrä - Tehtävät
 
-## 1.
+1. 
 ### a)
 Tee uusi pythonkooditiedosto, jossa on otettu pyglet käyttöön.
 ### b)
