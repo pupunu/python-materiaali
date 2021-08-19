@@ -33,11 +33,18 @@ Muuta vielä ympyrän koodia niin, että `y = 300` tilalla lukeekin `y = 500`. M
 ---
 
 4. (Haastavampi tehtävä)
-Ympyrä on olio, jonka ikkuna piirtää itseensä. Olioilla on paljon tietoa itsestään. Ympyrä tietää esimerkiksi minkä kokoinen se on, missä kohtaa sen pitäisi ikkunassa sijaita tai vaikkapa minkä värinen se on.
 
-Näitä tietoja voi kertoa ympyrälle, kun sen luo, tai niitä voi muuttaa ohjelmassa myöhemmin. Esimerkiksi kun hahmo liikkuu, sen sijainti muuttuu.
+Ympyrä on olio, jonka ikkuna piirtää itseensä.
 
-Ikkunassa asioiden sijainnit kerrotaan koordinaateilla. Ikkuna on suuri ruudukko, yksi ruutu on yksi pikseli tietokoneen näytöllä, ja ympyrä kertoo ikkunalle missä ruudussa se sijaitsee. Ikkunan leveys kertoo kuinka monta ruutua ikkuna on leveä ja korkeus montako ruutua ikkuna on korkea. Ympyrällä sen sijaan x kertoo monennessako ruudussa ympyrä on sivusuunnassa laskettuna ja y kertoo missä ruudussa se on pystysuunnassa laskettuna.
+Olioilla on paljon tietoa itsestään. Ympyrä tietää esimerkiksi minkä kokoinen se on, missä kohtaa sen pitäisi ikkunassa sijaita tai vaikkapa minkä värinen se on.
+
+Näitä tietoja voi kertoa ympyrälle kun sen luo, tai niitä voi muuttaa ohjelmassa myöhemmin. Esimerkiksi kun hahmo liikkuu, sen sijainti muuttuu.
+
+Ikkunassa asioiden sijainnit kerrotaan koordinaateilla. Ikkuna on suuri ruudukko ja ympyrä kertoo ikkunalle missä ruudussa se sijaitsee. Yksi ruutu ikkunassa vastaa yhtä pikseliä tietokoneen näytöllä.
+
+Ikkunan leveys kertoo kuinka monta ruutua ikkuna on leveä ja korkeus montako ruutua ikkuna on korkea.
+
+Ympyrällä taas ominaisuus x kertoo monennessako ruudussa ympyrä on sivusuunnassa laskettuna ja y kertoo missä ruudussa se on pystysuunnassa laskettuna.
 
 Ruutujen laskeminen alkaa vasemmasta alakulmasta.
 ![ruutu](osa2-kuvat/tehtava4-origo.png)
