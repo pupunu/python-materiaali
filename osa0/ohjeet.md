@@ -95,7 +95,7 @@ Python-kirjastoja voi asentaa pip:llä. Uusimpien Python-asennusten mukana asent
 Kun koneella on pip, mennään asentamaan Pyglet! Avaa koneesi terminaali.
 
 #### Terminaali Windows-koneella
-Paina Windows-näppäintä ja kirjoita hakukenttään _komentokehote_ tai jos koneesi on englanniksi _command prompt_.
+Paina Windows-näppäintä ja kirjoita hakukenttään _komentokehote_ tai _cmd_.
 
 ![hakukentässä komentokehote](kuvat/windows-terminaalin-avaus.png)
 
@@ -114,7 +114,7 @@ Paina nappeja Ctrl, Alt ja T samaan aikaan.
 
 Pygletin saa asennettua kirjoittamalla terminaaliin komento:
 
-```pip install pyglet --user```
+```pip3 install pyglet --user```
 
 Seuraa mahdollisia asennusohjeita.
 
