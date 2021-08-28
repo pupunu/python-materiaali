@@ -44,7 +44,7 @@ Tutkin hiukan lähemmin miten nämä ehtolauseet toimivat:
 
 Tässä on leikkikoodi, jossa ensin tarkistetaan onko tiikeri eläin ja sitten tarkistetaan onko tiikeri oranssi. Ohjelma tarkistaa ensin ensimmäisen jos-lauseen ja sen ollessa totta, se sanoo "eläimellistä touhua". Sitten tietokone etenee seuraavaan jos-lauseeseen, jonka ollessa totta, ohjelma sanoo "appelsiinkin kaltainen".
 
-![jos ja tai jos](kuvat/jostain.png)
+![jos ja tai jos](kuvat/jostai.png)
 
 Tässä koodissa on tärkeää huomata, että toinen ehtolause ei ole jos-lause vaan tai jos -lause. Tai jos -lause käsitellään vain jos sitä edeltävä jos-lause ja "tai jos"-lauseet eivät ole totta. Koska ensimmäinen jos-lause on totta, tietokone hyppää tai jos -lauseen yli kokonaan ja sanoo ainoastaan "eläimellistä touhua".
 
