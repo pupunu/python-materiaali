@@ -47,10 +47,10 @@ Ikkunan leveys kertoo kuinka monta ruutua ikkuna on leveä ja korkeus montako ru
 Ympyrällä taas ominaisuus x kertoo monennessako ruudussa ympyrä on sivusuunnassa laskettuna ja y kertoo missä ruudussa se on pystysuunnassa laskettuna.
 
 Ruutujen laskeminen alkaa vasemmasta alakulmasta.
-![ruutu](osa2-kuvat/tehtava4-origo.png)
+![ruutu](kuvat/tehtava4-origo.png)
 
 Ympyrän sijainti on sen keskipisteen sijainti ruudukossa.
-![ympyrä ikkunassa](osa2-kuvat/tehtava4-ympyra.png)
+![ympyrä ikkunassa](kuvat/tehtava4-ympyra.png)
 
 Jatka edellistä tehtävää.
 
