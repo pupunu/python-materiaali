@@ -40,7 +40,7 @@ Ehtolauseita on kolmenlaisia: `if`, `elif` ja `else`. Suomeksi ne tarkoittavat k
 
 Tutkin hiukan lähemmin miten nämä ehtolauseet toimivat:
 
-![joslauseita](kuvat/joslauseet.png)
+![joslauseita](kuvat/joslauseet.png | height=200)
 
 Tässä on leikkikoodi, jossa ensin tarkistetaan onko tiikeri eläin ja sitten tarkistetaan onko tiikeri oranssi. Ohjelma tarkistaa ensin ensimmäisen jos-lauseen ja sen ollessa totta, se sanoo "eläimellistä touhua". Sitten tietokone etenee seuraavaan jos-lauseeseen, jonka ollessa totta, ohjelma sanoo "appelsiinkin kaltainen".
 
