@@ -13,7 +13,11 @@ def ikkunatapahtuma():
 > Huom! `ikkuna` voi olla sinulla toisen niminen. Sen sijaan pygletissä ikkunatapahtumat ovat ennalta nimettyjä.
 
 ## Jo tuttu ikkunatapahtuma on_draw()
-Olemme jo hyödyntäneet yhtä ikkunatapahtumista, nimittäin `on_draw`:ta, jolla saadaan piirrettyä näytölle asioita. `on_draw`:ta kutsuessa on hyvä tyhjentää ikkuna aina ennen uusien asioiden piirtämistä kahdesta syystä. Ikkunassa saattaa olla ennen ensimmäistä piirtokertaa jotain ikkunan käsittelystä johtuvaa sotkua. Lisäksi tulevaisuudessa jos haluamme, että ikkunassa olevat asiat muuttuvat, kannattaa aina tyhjentää kaikki vanha ikkunasta ennenkuin piirtää siihen uudet asiat. Laita komento `ikkuna.clear()` ennen kuin piirrät muita asioita näytölle.
+Olemme jo hyödyntäneet yhtä ikkunatapahtumista, nimittäin `on_draw`:ta, jolla saadaan piirrettyä näytölle asioita. `on_draw`:ta kutsuessa on hyvä tyhjentää ikkuna aina ennen uusien asioiden piirtämistä kahdesta syystä. 
+- Ikkunassa saattaa olla ennen ensimmäistä piirtokertaa jotain ikkunan käsittelystä johtuvaa sotkua.
+- Lisäksi tulevaisuudessa jos haluamme, että ikkunassa olevat asiat muuttuvat, kannattaa aina tyhjentää kaikki vanha ikkunasta ennen kuin piirtää siihen uudet asiat.
+
+Laita komento `ikkuna.clear()` ensimmäiseksi ikkunatapahtumaan:
 
 ```Python3
 @ikkuna.event
@@ -34,7 +38,7 @@ def on_key_press(merkki, muuntaja):
 	# Tästä alkaa sinun koodisi (muista rivin sisennys)
 ```
 
-`on_key_press`:stä on hyvä huomata, että se ottaa vastaan parametrejä: suluissa olevat `merkki` ja `muuntaja`. Parametrit kertovat lisätietoja napinpainalluksesta. Tässä osassa emme kuitenkaan pureudu parametreihin sen kummemmin. Saatat kuitenkin itse jo keksiä miten saamme selville parametreistä painetun napin.
+`on_key_press`:stä on hyvä huomata, että se ottaa vastaan parametrejä: suluissa olevat `merkki` ja `muuntaja`. Parametrit kertovat lisätietoja napinpainalluksesta. Tässä osassa emme kuitenkaan pureudu parametreihin sen kummemmin. Saatat kuitenkin itse jo keksiä miten saamme parametreistä selville painetun napin.
 
 Tämän tapahtuman sisällä voimme vaikuttaa ympyrään, kuten vaihtaa ympyrän väriä. Ympyrän värin saa vaihdettua punaiseksi seuraavasti:
 
@@ -42,7 +46,7 @@ Tämän tapahtuman sisällä voimme vaikuttaa ympyrään, kuten vaihtaa ympyrän
 ympyrä.color = 255, 0, 0
 ```
 
-Voimme lisätä rivin ikkunatapahtumaan:
+Voimme lisätä koodin ikkunatapahtumaan:
 
 ```Python3
 @ikkuna.event
@@ -65,6 +69,8 @@ def on_key_release(merkki, muuntaja):
 `on_key_release` on englantia ja tarkoittaa _napin painamisen loppuessa_.
 
 Tämän lisätessämme ohjelmaan voimme pelin aikana tehdä pallosta punaisen painamalla nappia pohjassa. Lopettaessa painamisen pallon väri vaihtuu takaisin alkuperäiseen valkoiseen väriin.
+
+## Ohjelma tähän mennessä
 
 Tähän mennessä ohjelman pitäisi siis näyttää kokonaisuudessaan tältä:
 ```Python3
