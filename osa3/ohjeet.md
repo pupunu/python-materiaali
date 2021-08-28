@@ -1,5 +1,5 @@
 # Osa 3 - Ikkunatapahtumien käsittely
-Pelin olessa käynnissä pelaaja haluaa vaikuttaa pelin toimintaan. Tämän voi toteuttaa ikkunatapahtumilla.Ikkunatapahtumat ovat erilaisia tilanteita, joita ikkunaille voi tapahtua. Yleisiä ikkunatapahtumia ovat mm. ikkunan avautuminen ja sulkeutuminen tai napin painaminen ikkunan olessa aktiivinen. Jotta ikkuna tietää mitä sen kuuluu tehdä, kun sille tapahtuu jotain, pitää sille kertoa se ohjelman koodissa. Pygletissä ikkunatapahtumia lisätään kutakuinkin näin:
+Pelin olessa käynnissä pelaaja haluaa vaikuttaa pelin toimintaan. Tämän voi toteuttaa ikkunatapahtumilla.Ikkunatapahtumat ovat erilaisia tilanteita, joita ikkunaille voi tapahtua. Yleisiä ikkunatapahtumia ovat mm. ikkunan avautuminen ja sulkeutuminen tai näppäimen painaminen ikkunan olessa aktiivinen. Jotta ikkuna tietää mitä sen kuuluu tehdä, kun sille tapahtuu jotain, pitää sille kertoa se ohjelman koodissa. Pygletissä ikkunatapahtumia lisätään kutakuinkin näin:
 
 ```Python3
 @ikkuna.event          
@@ -30,7 +30,7 @@ def on_draw():
 Viime kerralla teimme ikkunnan, johon piirrettiin ympyrä. Voimme jatkaa ohjelmaa lisäämällä ikkunalle ikkunatapahtumia.
 
 ## Väriä vaihtava ympyrä
-Lisää koodiin ikkunan luomisen jälkeen ja ennen `pyglet.app.run`:ia ikkunatapahtuma `on_key_press`. Tämä on englantia ja tarkoittaa _nappia painaessa_, ja se käsittelee ikkunan napinpainallukset. Lisää seuraavat rivit koodiisi:
+Lisää koodiin ikkunan luomisen jälkeen ja ennen `pyglet.app.run`:ia ikkunatapahtuma `on_key_press`. Tämä on englantia ja tarkoittaa _näppäintä painaessa_, ja se käsittelee ikkunan näppäinten painallukset. Lisää seuraavat rivit koodiisi:
 
 ```Python3
 @ikkuna.event
@@ -38,7 +38,7 @@ def on_key_press(merkki, muuntaja):
 	# Tästä alkaa sinun koodisi (muista rivin sisennys)
 ```
 
-`on_key_press`:stä on hyvä huomata, että se ottaa vastaan parametrejä: suluissa olevat `merkki` ja `muuntaja`. Parametrit kertovat lisätietoja napinpainalluksesta. Tässä osassa emme kuitenkaan pureudu parametreihin sen kummemmin. Saatat kuitenkin itse jo keksiä miten saamme parametreistä selville painetun napin.
+`on_key_press`:stä on hyvä huomata, että se ottaa vastaan parametrejä: suluissa olevat `merkki` ja `muuntaja`. Parametrit kertovat lisätietoja painetusta näppäimestä. Tässä osassa emme kuitenkaan pureudu parametreihin sen kummemmin. Saatat kuitenkin itse jo keksiä miten saamme parametreistä selville painetun napin.
 
 Tämän tapahtuman sisällä voimme vaikuttaa ympyrään, kuten vaihtaa ympyrän väriä. Ympyrän värin saa vaihdettua punaiseksi seuraavasti:
 
@@ -54,7 +54,7 @@ def on_key_press(merkki, muuntaja):
 	ympyrä.color = 255, 0, 0
 ```
 
-Nyt käynnistäessä pelin voimme huomata, että nappia painamalla ympyrän väri vaihtuu!
+Nyt käynnistäessä pelin voimme huomata, että mitä tahansa näppäintä painamalla ympyrän väri vaihtuu!
 
 Nyt kuitenkin ympyrän väri jää punaiseksi, mikä on vähän tylsää.
 
@@ -66,9 +66,9 @@ def on_key_release(merkki, muuntaja):
 	ympyrä.color = 255, 255, 255
 ```
 
-`on_key_release` on englantia ja tarkoittaa _napin painamisen loppuessa_.
+`on_key_release` on englantia ja tarkoittaa _näppäimen painamisen loppuessa_.
 
-Tämän lisätessämme ohjelmaan voimme pelin aikana tehdä pallosta punaisen painamalla nappia pohjassa. Lopettaessa painamisen pallon väri vaihtuu takaisin alkuperäiseen valkoiseen väriin.
+Tämän lisätessämme ohjelmaan voimme pelin aikana tehdä pallosta punaisen painamalla näppäintä pohjassa. Lopettaessa painamisen pallon väri vaihtuu takaisin alkuperäiseen valkoiseen väriin.
 
 ## Ohjelma tähän mennessä
 
