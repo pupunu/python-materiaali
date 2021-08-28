@@ -16,6 +16,7 @@
 - muuttujat
 
 [Osa 1 ohjeet](osa1/ohjeet.md)
+
 [Osa 1 tehtävät](osa1/tehtävät.md)
 
 ### Osa 2 - Ympyrä
@@ -23,6 +24,7 @@
 - miten lisätä ikkunaan ympyrä
 
 [Osa 2 ohjeet](osa2/ohjeet.md)
+
 [Osa 2 tehtävät](osa2/tehtävät.md)
 
 ### Osa 3 - Ikkunatapahtumat
@@ -30,6 +32,7 @@
 - ikkunatapahtuma on_key_press
 
 [Osa 3 ohjeet](osa3/ohjeet.md)
+
 [Osa 3 tehtävät](osa3/tehtävät.md)
 
 ### Osa 4 - Ehtolauseet
