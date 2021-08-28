@@ -42,7 +42,7 @@ b) Muokkaa koodia niin, että ympyrän väriksi tulee `0, 0, 255`. Minkä värin
 
 5. (Haastavampi tehtävä)
 
-Olet ehkä oppinut, että päävärit ovat punainen, sininen ja keltainen, ja että muut värit saa näytä värejä sekoittamalla. Lisäksi mitä useampaa väriä sekoittaa, sitä tummempia niistä tulee.
+Olet ehkä oppinut, että päävärit ovat punainen, sininen ja keltainen, ja että muut värit saa näitä värejä sekoittamalla. Lisäksi mitä useampaa väriä sekoittaa, sitä tummempia niistä tulee.
 
 ![klassinen väriympyrä](kuvat/väriympyrä-klassinen.png)
 
@@ -50,7 +50,7 @@ Tietokoneella kuitenkin päävärit ovat punainen, vihreä ja sininen, ja kaikki
 
 ![valoväriympyrä](kuvat/väriympyrä-valo.png)
 
-a) Ympyrälle annetaan sen väri muodossa `numero, numero, numero`. Selvitä mikä numeroista kertoo punaisen valon, mikä vihreän valon ja mikä keltaisen valon määrän.
+a) Ympyrälle annetaan sen väri muodossa `numero, numero, numero`. Selvitä mikä numeroista kertoo punaisen valon, mikä vihreän valon ja mikä sinisen valon määrän.
 
 b) `255, 0, 0` on kirkkain mahdollinen punainen. 255 on isoin määrä paljonko jonkin väristä valoa voi olla. 0 taas taas tarkoittaa, että tietynväristä valoa ei ole ollenkaan. Selvitä millaisella komennolla voidaan tehdä ympyrästä kirkkaanpunaisen sijaan tummanpunainen.
 
