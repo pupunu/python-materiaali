@@ -37,7 +37,10 @@
 
 ### Osa 4 - Ehtolauseet
 - jos
-- miten ympyrän väriä saa vaihdettua nappia painamalla
+- ympyrä vaihtaa väriä vain tietystä näppäimestä
+
+[Osa 4 ohjeet](osa4/ohjeet.md)
+
 
 ### Osa 5 - aikataulutus
 - kellon (clock) käyttö ohjelman aikataulutuksessa

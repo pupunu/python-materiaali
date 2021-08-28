@@ -28,3 +28,8 @@ def on_key_press(merkki, muuntaja):
 		ympyrä.color = 0, 0, 255
 ```
 
+## Erilaisia näppäimiä ja erilaisia värejä
+
+Tehdään seuraavaksi niin, että ympyrä muuttuu punaiseksi jos painetaan P:tä, siniseksi jos painetaan S:ää ja vihreäksi jos painetaan V:tä.
+
+Voisimme lisätä koodiin lisää if-komentoja, mutta on tyylikkäämpää tehdä se elif-komennoilla. 
