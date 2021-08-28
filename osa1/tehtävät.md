@@ -36,7 +36,7 @@ Ikkunan ylälaidassa olevaa otsikkoa voi muuttaa lisäämällä ikkunaa luodessa
 ```python3
 pyglet.window.Window(width = 800, height = 600, caption = "hieno ikkuna")
 ```
-![kuva, jossa ikkunassa lukee _hieno ikkuna_](osa1-kuvat/hieno-ikkuna.png)
+![kuva, jossa ikkunassa lukee _hieno ikkuna_](kuvat/hieno-ikkuna.png)
 Jatka ensimmäisen tehtävän ohjelmaa.
 
 a) Muokkaa koodia niin, että pienemmän ikkunan otsikoksi tulee _pieni ikkuna_.
