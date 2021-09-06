@@ -59,3 +59,28 @@ Tämä koodi ensin tarkistaa onko tiikeri hedelmä,
 Tehdään seuraavaksi niin, että ympyrä muuttuu punaiseksi jos painetaan P:tä, siniseksi jos painetaan S:ää ja vihreäksi jos painetaan V:tä.
 
 Voisimme lisätä koodiin lisää if-komentoja, mutta on tyylikkäämpää tehdä se elif-komennoilla. 
+
+
+
+## Erilaisia ehtolauseita
+
+Ehtolauseita on kolmenlaisia: `if`, `elif` ja `else`. Suomeksi ne tarkoittavat kutakuinkin `jos`, `tai jos` ja `muussa tapauksessa`.
+
+Tutkin hiukan lähemmin miten nämä ehtolauseet toimivat:
+
+<img src=kuvat/joslauseet.png height="500">
+
+Tässä on leikkikoodi, jossa ensin tarkistetaan onko tiikeri eläin ja sitten tarkistetaan onko tiikeri oranssi. Ohjelma tarkistaa ensin ensimmäisen jos-lauseen ja sen ollessa totta, se sanoo "eläimellistä touhua". Sitten tietokone etenee seuraavaan jos-lauseeseen, jonka ollessa totta, ohjelma sanoo "appelsiinkin kaltainen".
+
+<img src=kuvat/jostai.png height="500">
+
+Tässä koodissa on tärkeää huomata, että toinen ehtolause ei ole jos-lause vaan tai jos -lause. Tai jos -lause käsitellään vain jos sitä edeltävä jos-lause ja "tai jos"-lauseet eivät ole totta. Koska ensimmäinen jos-lause on totta, tietokone hyppää tai jos -lauseen yli kokonaan ja sanoo ainoastaan "eläimellistä touhua".
+
+<img src=kuvat/ööh.png height="500">
+
+Tässä koodissa on muussa tapauksessa -lause. Muussa tapauksessa -lause käsitellään vain jos sitä edeltävä jos-lause ja "tai jos"-lauseet eivät ole totta.
+Tietokone tarkistaa ensin onko tiikeri kasvi. Koska tämä ei ole totta se testaa seuraavaksi, että olisiko tiikeri sittenkin huonekalu. Koska tämäkään ei ole totta, tietokone lopulta päätyy muussa tapauksessa -lauseeseen ja sanoo siis loppujen lopuksi ainoastaan "ööh".
+
+<img src=kuvat/eläimellistämenoa.png height="500">
+
+Tämä koodi on hyvin samanlainen kuin edellinen, mutta nyt toisena tuleva tai jos -lause onkin totta, joten tietokone sanoo sen kohdalla "eläimellistä menoa" ja sen jälkeen hyppää muussa tapauksessa -lauseen yli.
