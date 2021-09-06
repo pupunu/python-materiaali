@@ -114,13 +114,9 @@ Paina nappeja Ctrl, Alt ja T samaan aikaan.
 
 Pygletin saa asennettua kirjoittamalla terminaaliin komento:
 
-```pip install pyglet --user```
+```pip3 install pyglet --user```
 
 Seuraa mahdollisia asennusohjeita.
-
-Jos tämä ei toimi, kokeile seuraavaa komentoa:
-
-```pip3 install pyglet --user```
 
 Nyt pyglet on asennettu ja voit käyttää sitä ohjelmissasi.
 

@@ -14,17 +14,25 @@ c) Lisää ohjelmaan ikkunatapahtuma, joka muuttaa ympyrän takaisin valkoiseksi
 
 2. 
 
-Muokkaa ikkunatapahtumaan, joka käsittelee napinpainallukset.
+Jatka edellisen tehtävän ohjelmaa ja muokkaa ikkunatapahtumaan, joka käsittelee napinpainallukset.
 
 a) Poista koodi joka muuttaa ympyrän punaiseksi.
 
-b) Kirjoita ehtolause, joka tarkistaa, että painettu nappi on P.
+b) Kirjoita ehtolause, joka tarkistaa, että painettu nappi on A.
 
-c) Laita ympyrä muuttamaan väriä punaiseksi jos painettu nappi on P.
+c) Laita ympyrä muuttamaan väriä punaiseksi jos painettu nappi on A.
 
 ---
 
 3. 
+
+Jatka edellisen tehtävän ohjelmaa.
+
+Muokkaa koodia niin, että ympyrä vaihtaa väriä mitä tahansa nappia painamalla, mutta väriksi tulee punainen jos painetaan nappia A, ja sininen jos painetaan jotain muuta nappia.
+
+---
+
+4. 
 
 Jatka edellisen tehtävän ohjelmaa.
 
@@ -34,26 +42,9 @@ b) Muokkaa koodia niin, että ympyrä muuttuu punaiseksi painamalla nappia _P_.
 
 ---
 
-4. (Haastavampi tehtävä)
+5. (Haastavampi tehtävä)
 
-Mietitäänpä seuraavaksi tilannetta, että haluaisimme, että ympyrä vaihtaa väriä mistä tahansa näppäimestä niin, että jos painetaan näppäintä P, ympyrä muuttuu punaiseksi. Jos taas painetaan jotain muuta näppäintä, ympyrä muuttuu siniseksi.
-
-Tällaisen ohjelmoimiseksi tarvitsemme jotain `if`-ehtolauseemme lisäksi. Tarvitsemme `else`-lauseen. Else on englantia ja tarkoittaa kutakuinkin _muussa tapauksessa_.
-
-Haluamme siis, että nappia painaessa _jos painettu nappi on P, ympyrästä tulee punainen. Muussa tapauksessa ympyrästä tulee sininen_.
-
-Haluamamme ohjelman saisi siis toteutettua niin, että ikkunatapahtuma `on_key_press` näyttäisi seuraavalta:
-
-```Python3
-@ikkuna.event
-def on_key_press(merkki, muuntaja):
-    if merkki == pyglet.window.key.P:
-        ympyrä.color = 255, 0, 0
-    else:
-        ympyrä.color = 0, 0, 255
-```
-
-Entäs jos haluaisimme, että ympyrä on punainen, kun painamme nappia P, vihreä kun painamme nappia V ja sininen kun painetaan jotain muuta nappia?
+Entä jos haluaisimme, että ympyrä on punainen, kun painamme nappia P, vihreä kun painamme nappia V ja sininen kun painetaan jotain muuta nappia?
 
 Kun haluamme antaa useita tarkkoja vaihtoehtoa ohjelmalle, tarvitsemme ehtolausetta `elif`. Se on lyhenne englannin sanoista _else if_ ja tarkoittaa suomeksi _tai jos_. Toisin sanoen haluamme ohjelmoida, että nappia painaessa:
 - jos nappi on P, muutetaan väriksi punainen
@@ -80,3 +71,5 @@ Jatka edellisen tehtävän ohjelmaa
 a) Muokkaa ohjelmaasi niin, että painaessa nappia P, ympyrä muuttuu punaiseksi, mutta mistä tahansa muusta napista ympyrä muuttuukin siniseksi.
 
 b) Muokkaa ohjelmaasi niin, että ympyrä muuttuu nappia V painaessa vihreäksi.
+
+c) Muokkaa ohjelmaani niin, että jos painetaan nappia K, ympyrä muuttuu keltaiseksi. Ympyrä muuttuu keltaiseksi koodilla `ympyrä.color = 255, 255, 0`

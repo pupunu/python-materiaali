@@ -35,6 +35,25 @@ if merkki == pyglet.window.key.A:
 Nyt ympyrän pitäisi muuttua punaiseksi ainoastaan, jos painetaan näppäintä A.
 
 
+## else-komento
+
+Entäpä jos haluaisimme, että ympyrä muuttuu punaiseksi kun painetaan nappia A, mutta muita nappeja painamalla se muuttuisikin siniseksi?
+
+Tällaisen ohjelmoimiseksi tarvitsemme jotain `if`-ehtolauseemme lisäksi. Tarvitsemme `else`-lauseen. Else on englantia ja tarkoittaa kutakuinkin _muussa tapauksessa_.
+
+Haluamme siis, että nappia painaessa _jos painettu nappi on A, ympyrästä tulee punainen. Muussa tapauksessa ympyrästä tulee sininen_.
+
+Haluamamme ohjelman saisi siis ohjelmoitua lisäämällä ikkunatapahtumaan `on_key_press` ehtolause _muussa tapauksessa_.
+
+```Python3
+@ikkuna.event
+def on_key_press(merkki, muuntaja):
+    if merkki == pyglet.window.key.P:
+        ympyrä.color = 255, 0, 0
+    else:
+        ympyrä.color = 0, 0, 255
+```
+
 ## Ohjelma tähän mennessä
 
 Tähän mennessä koko ohjelma näyttää siis seuraavalta:
@@ -42,7 +61,7 @@ Tähän mennessä koko ohjelma näyttää siis seuraavalta:
 ```Python3
 import pyglet
 
-ikkuna.pyglet.window.Window(width = 800, height = 600)
+ikkuna = pyglet.window.Window(width = 800, height = 600)
 ympyrä = pyglet.shapes.Circle(x = 400, y = 300, radius = 100)
 
 @ikkuna.event
@@ -52,8 +71,11 @@ def on_draw():
 
 @ikkuna.event
 def on_key_press(merkki, muuntaja):
-	if merkki == pyglet.window.key.P:
+	if merkki == pyglet.window.key.A:
 		ympyrä.color = 255, 0, 0
+	else:
+		ympyrä.color = 0, 0, 255
+
 
 @ikkuna.event
 def on_key_release(merkki, muuntaja):
