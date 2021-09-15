@@ -87,3 +87,5 @@ pyglet.app.run()
 ## Koodi suomeksi
 
 Ohjelmoidessa törmää koko ajan uusiin sanoihin ja termeihin ja ne on helpompi muistaa, jos tietää mitä ne oikeasti tarkoittavat. Tässä on tähän asti tekemämme ohjelma suomennettuna.
+
+[Osan 4 tehtävät](/tehtävät.md)

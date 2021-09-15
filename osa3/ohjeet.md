@@ -94,3 +94,6 @@ def on_key_release(merkki, muuntaja):
 
 pyglet.app.run()
 ```
+
+> [Tehtävät](/tehtävät.md)
+> [Seuraava osa](../osa4/ohjeet.md)
