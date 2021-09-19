@@ -66,3 +66,8 @@ Nyt kun laitamme Python-ohjelman uudestaan päälle meille pitäisi ilmestyä ty
 
 ![tyhjä ikkuna](kuvat/tyhjä-ikkuna.png)
 
+---
+
+[Tehtävät](tehtävät.md)
+
+[Seuraava osa](../osa2/ohjeet.md)

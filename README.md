@@ -41,6 +41,7 @@
 
 [Osa 4 ohjeet](osa4/ohjeet.md)
 
+[Osa 4 tehtävät](osa4/tehtävät.md)
 
 ### Osa 5 - aikataulutus
 - kellon (clock) käyttö ohjelman aikataulutuksessa

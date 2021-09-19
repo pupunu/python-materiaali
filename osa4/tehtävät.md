@@ -73,3 +73,7 @@ a) Muokkaa ohjelmaasi niin, että painaessa nappia P, ympyrä muuttuu punaiseksi
 b) Muokkaa ohjelmaasi niin, että ympyrä muuttuu nappia V painaessa vihreäksi.
 
 c) Muokkaa ohjelmaani niin, että jos painetaan nappia K, ympyrä muuttuu keltaiseksi. Ympyrä muuttuu keltaiseksi koodilla `ympyrä.color = 255, 255, 0`
+
+---
+
+[Seuraava osa](../osa5/ohjeet.md)

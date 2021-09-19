@@ -126,3 +126,7 @@ Jotta Python-ohjelma osaa käyttää haluttuja kirjastoja, tulee ne lisätä ohj
 ```import kirjasto```
 
 Tästä lähtien siis kun teemme ohjelmia, joissa haluamme käyttää pyglettiä, kirjoitamme ohjelman ensimmäiselle riville `import pyglet`.
+
+---
+
+[Seuraava osa](../osa1/ohjeet.md)

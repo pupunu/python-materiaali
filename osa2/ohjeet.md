@@ -46,3 +46,9 @@ Nyt kun laitamme ohjelman käyntiin, saamme seuraavanlaisen näkymän:
 Pythonissa ja pygletissä lähes kaikki komennot ovat englanniksi. Tässä on käännös miltä ohjelmamme näyttäisi jos Python ja Pyglet olisivat suomenkielisiä.
 
 ![ohjelma suomeksi](kuvat/hello-world-suomeksi.png)
+
+---
+
+[Tehtävät](tehtävät.md)
+
+[Seuraava osa](../osa3/ohjeet.md)

@@ -65,3 +65,7 @@ Laita ympyrä oikean laidan keskelle.
 
 d)
 Laita ympyrä vasempaan alakulmaan niin, että se on kuitenkin kokonaan näkyvissä.
+
+---
+
+[Seuraava osa](../osa3/ohjeet.md)

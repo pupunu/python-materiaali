@@ -57,3 +57,7 @@ b) `255, 0, 0` on kirkkain mahdollinen punainen. 255 on isoin määrä paljonko 
 c) Muokkaa koodia niin, että ympyrä ei muutu nappia painamalla punaiseksi vaan keltaiseksi.
 
 d) Muokkaa koodia niin, että ympyrä on aluksi punainen ja palaa napin painamisen loputtua punaiseksi.
+
+---
+
+[Seuraava osa](../osa4/ohjeet.md)
