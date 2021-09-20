@@ -43,7 +43,10 @@
 
 [Osa 4 tehtävät](osa4/tehtävät.md)
 
-### Osa 5 - aikataulutus
+### Osa 5 - Funktiot
+- 
+
+### Osa 6 - Kello ja aikataulutus
 - kellon (clock) käyttö ohjelman aikataulutuksessa
 
 ### Osa 6 - Yhdistetään on_key_press ja aikataulutus

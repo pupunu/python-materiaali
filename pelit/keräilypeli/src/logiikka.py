@@ -47,7 +47,7 @@ def pahiksen_liikkuminen(dt):
 def keräilyn_tarkistus(_):
     global pisteet
     if abs(pelaaja.x - hedelmä.x)**2 + abs(pelaaja.y - hedelmä.y)**2 <= HEDELMÄ_OSUMAETÄISYYS**2:
-        while math.sqrt(abs(pelaaja.x - hedelmä.x)**2 + abs(pelaaja.y - hedelmä.y)**2) <= HEDELMÄ_OSUMAETÄISYYS:
+        while abs(pelaaja.x - hedelmä.x)**2 + abs(pelaaja.y - hedelmä.y)**2 <= HEDELMÄ_OSUMAETÄISYYS**2:
             hedelmä.x = random.randint(0, 800)
             hedelmä.y = random.randint(0, 600)
         pisteet += 1
