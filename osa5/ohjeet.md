@@ -34,7 +34,8 @@ def funktio():
     myös uudessa rivissä on sisennys
 ```
 **Tämä on oikein 🠕**
-**Tämä on vääri 🠗**
+
+**Tämä on väärin 🠗**
 ```Python3
 def funktio():
 funktion sisältöä ei voi kirjoittaa näin
