@@ -53,4 +53,4 @@
 - miten koordinaatteihin voi vaikuttaa kellon avulla
 
 ### Osa 7 - Yhdistetään on_key_press ja aikataulutus
--opitaan miten saada ympyrä liikkumaan ylös-alas ikkunassa.
+- opitaan miten saada ympyrä liikkumaan ylös-alas ikkunassa.
