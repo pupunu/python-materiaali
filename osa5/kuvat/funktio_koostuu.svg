@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="200.42509mm"
+   height="105.18471mm"
+   viewBox="0 0 200.42509 105.18471"
+   version="1.1"
+   id="svg8"
+   inkscape:export-filename="/home/kpkallio/Documents/työt/pythonmateriaali/pyglet-materiaali/osa5/funktio_koostuu.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="funktio_koostuu.svg">
+  <defs
+     id="defs2">
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4533"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#f4b561;fill-opacity:1;fill-rule:evenodd;stroke:#f4b561;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4527"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend-3"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4533-6"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#5248ca;fill-opacity:1;fill-rule:evenodd;stroke:#5248ca;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend-5"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4533-3"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#42a120;fill-opacity:1;fill-rule:evenodd;stroke:#42a120;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend-6"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4533-2"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#e13e4a;fill-opacity:1;fill-rule:evenodd;stroke:#e13e4a;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend-1"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4533-27"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#cc1ac4;fill-opacity:0.97971018;fill-rule:evenodd;stroke:#cc1ac4;stroke-width:1.00000003pt;stroke-opacity:0.97971018"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.93303299"
+     inkscape:cx="303.16533"
+     inkscape:cy="167.70694"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1848"
+     inkscape:window-height="1016"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Taso 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-9.7918383,-102.50731)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="10.77579"
+       y="158.61618"
+       id="text4520"><tspan
+         sodipodi:role="line"
+         id="tspan4518"
+         x="10.77579"
+         y="158.61618"
+         style="stroke-width:0.26458332">def on_key_press(merkki, muuntaja):</tspan></text>
+    <path
+       style="fill:none;stroke:#f4b561;stroke-width:0.96499997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 27.394934,128.24685 -6.52806,18.75672"
+       id="path4522"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#5248ca;stroke-width:0.96499997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-3)"
+       d="M 75.037592,185.18267 68.749446,166.34416"
+       id="path4522-7"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#42a120;stroke-width:0.96499997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-5)"
+       d="m 122.73313,127.43467 -6.52806,18.75672"
+       id="path4522-5"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#e13e4a;stroke-width:0.96499997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-6)"
+       d="m 152.61214,182.95371 8.09983,-18.13348"
+       id="path4522-9"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#cc1ac4;stroke-width:0.96499997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.97971018;marker-end:url(#Arrow1Mend-1)"
+       d="m 188.47605,130.53338 4.27548,19.3946"
+       id="path4522-0"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#f4b561;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="9.3579216"
+       y="110.40871"
+       id="text6691"><tspan
+         sodipodi:role="line"
+         id="tspan6689"
+         x="9.3579216"
+         y="110.40871"
+         style="fill:#f4b561;fill-opacity:1;stroke-width:0.26458332">aloitetaan</tspan><tspan
+         sodipodi:role="line"
+         x="9.3579216"
+         y="123.63787"
+         style="fill:#f4b561;fill-opacity:1;stroke-width:0.26458332"
+         id="tspan6693">määrittely</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#5248ca;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="59.266838"
+       y="194.34644"
+       id="text6697"><tspan
+         sodipodi:role="line"
+         id="tspan6695"
+         x="59.266838"
+         y="194.34644"
+         style="fill:#5248ca;fill-opacity:1;stroke-width:0.26458332">funktion</tspan><tspan
+         sodipodi:role="line"
+         x="59.266838"
+         y="207.57561"
+         style="fill:#5248ca;fill-opacity:1;stroke-width:0.26458332"
+         id="tspan6699">nimi</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#42a120;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="106.34002"
+       y="109.84156"
+       id="text6703"><tspan
+         sodipodi:role="line"
+         id="tspan6701"
+         x="106.34002"
+         y="109.84156"
+         style="fill:#42a120;fill-opacity:1;stroke-width:0.26458332">funktion</tspan><tspan
+         sodipodi:role="line"
+         x="106.34002"
+         y="123.07072"
+         style="fill:#42a120;fill-opacity:1;stroke-width:0.26458332"
+         id="tspan6709">arvo</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#e13e4a;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="136.11522"
+       y="192.64499"
+       id="text6707"><tspan
+         sodipodi:role="line"
+         id="tspan6705"
+         x="136.11522"
+         y="192.64499"
+         style="fill:#e13e4a;fill-opacity:1;stroke-width:0.26458332">funktion arvo</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.82930708px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#cc1ac5;fill-opacity:1;stroke:none;stroke-width:0.17073268"
+       x="153.64548"
+       y="123.67638"
+       id="text6713"
+       transform="scale(1.0459279,0.95608886)"><tspan
+         sodipodi:role="line"
+         x="153.64548"
+         y="123.67638"
+         style="fill:#cc1ac5;fill-opacity:1;stroke-width:0.17073268"
+         id="tspan6715">tämän jälkeen</tspan><tspan
+         sodipodi:role="line"
+         x="153.64548"
+         y="132.21301"
+         style="fill:#cc1ac5;fill-opacity:1;stroke-width:0.17073268"
+         id="tspan6719">alkaa funktion</tspan><tspan
+         sodipodi:role="line"
+         x="153.64548"
+         y="140.74965"
+         style="fill:#cc1ac5;fill-opacity:1;stroke-width:0.17073268"
+         id="tspan6721">koodi</tspan></text>
+  </g>
+</svg>

@@ -43,11 +43,14 @@
 
 [Osa 4 tehtävät](osa4/tehtävät.md)
 
-### Osa 5 - Funktiot
-- 
-
-### Osa 6 - Kello ja aikataulutus
+### Osa 5 - Aikataulutus ja funktiot
 - kellon (clock) käyttö ohjelman aikataulutuksessa
+- funktioiden kirjoittaminen
+- funktioiden käyttö
 
-### Osa 6 - Yhdistetään on_key_press ja aikataulutus
+### Osa 6 - Koordinaatit
+- miten pallon koordinaatit vaikuttavat pallon sijaintiin pelikentällä
+- miten koordinaatteihin voi vaikuttaa kellon avulla
+
+### Osa 7 - Yhdistetään on_key_press ja aikataulutus
 -opitaan miten saada ympyrä liikkumaan ylös-alas ikkunassa.
