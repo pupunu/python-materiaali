@@ -106,7 +106,7 @@ Aloita uusi ohjelma.
 
 Ympyrällä on muitakin ominaisuuksia kuin väri ja sijainti. Yksi näistä on ympyrän säde. Ympyrän säde on tallennettuna muuttujaan `ympyrä.radius`. _Radius_ on englantia ja tarkoittaa sädettä.
 
-<img src=kuvat/säde.png height="400">
+<img src=kuvat/sade.png height="400">
 
 a) Tee ohjelma, jolla on ikkuna, johon piirretään ympyrä.
 
