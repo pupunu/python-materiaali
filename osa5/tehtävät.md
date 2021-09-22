@@ -67,8 +67,8 @@ a) Tee ohjelma, jolla on ikkuna, jonka keskelle piirretään ympyrä.
 b) Alla on funktio, joka muuttaa ympyrää. Kirjoita tai kopioi se ohjelmaasi.
 
 ```Python3
-def suurenee(dt):
-    if ympyrä.radius > 25:
+def värimuunnos(dt):
+    if ympyrä.color[0] > 25:
         ympyrä.color = ympyrä.color[0] - 25, 255, 255
 ```
 
