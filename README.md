@@ -48,6 +48,10 @@
 - funktioiden kirjoittaminen
 - funktioiden käyttö
 
+[Osa 5 ohjeet](osa5/ohjeet.md)
+
+[Osa 5 tehtävät](osa5/tehtävät.md)
+
 ### Osa 6 - Koordinaatit
 - miten pallon koordinaatit vaikuttavat pallon sijaintiin pelikentällä
 - miten koordinaatteihin voi vaikuttaa kellon avulla
