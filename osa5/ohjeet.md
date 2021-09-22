@@ -46,27 +46,27 @@ Funktiot ovat ohjelmoinnin monikäyttöisimpiä työkaluja ja niitä voi hyödyn
 
 ## Tehdään aikatauluttamalla diskopallo
 
-Nyt voimme jatkaa viimekerran ohjelmaa. Ohjelmoidaan niin, että pallo vaihtaa yhden sekunnin välein väriään seuraavan kuvan mukaisesti, eli punaisesta vihreäksi, vihreästä siniseksi ja sinisestä takaisin vihreäksi.
+Nyt voimme jatkaa viimekerran ohjelmaa. Ohjelmoidaan niin, että pallo vaihtaa yhden sekunnin välein väriään seuraavan kuvan mukaisesti, eli punaisesta vihreäksi, vihreästä siniseksi ja sinisestä takaisin punaiseksi.
 
 <img src=kuvat/diskopallo.png height="500">
 
-Aloitetaan määrittelemällä funktio, joka muuttaa pallon väriä. Annetaan funktion nimeksi vaikkapa diskopallo. Aikataulutettavat funktiot tarvitsevat arvokseen ajan jolloin funktiota on viimeksi kutsuttu (käytetty). Tätä arvoa kutsutaan _delta-ajaksi_ ja siksi sitä usein merkitään _dt_.
+Aloitetaan määrittelemällä funktio, joka muuttaa pallon väriä. Annetaan funktion nimeksi vaikkapa diskopallo. Aikataulutettavat funktiot tarvitsevat arvokseen ajan jolloin funktiota on viimeksi kutsuttu (käytetty). Tätä arvoa kutsutaan _delta-ajaksi_ ja sitä usein merkitään _dt_.
 
 Aloitetaan siis funktion kirjoittaminen näin: `def diskopallo(dt):`
 
-Seuraavaksi mietitään mitä funktion pitää tehdä. Jos funktion väri on punainen, pitää väriksi vaihtaa vihreä. Toisaalta jos väri on vihreä, pitää väristä tulla sininen tai jos väri on sininen, tulee väriksi vaihtua taas punainen. Tarvitaan siis ehtolauseita.
+Seuraavaksi mietitään mitä funktion pitää tehdä. Jos pallon väri on punainen, pitää väriksi vaihtaa vihreä. Toisaalta jos väri on vihreä, pitää väristä tulla sininen tai jos väri on sininen, tulee väriksi vaihtua taas punainen.
 
-Lisäksi ohjelmassamme ympyrä voi olla myös valkoinen. Ohjelmoidaan siis, että jos väri on jotain muuta kuin punainen, vihreä tai sininen, niin väriksi vaihdetaan aina punainen. 
+Lisäksi ohjelmassamme ympyrä voi olla myös valkoinen. Ohjelmoidaan siis, että jos väri on jotain muuta kuin kaavakuvassa, väriksi vaihdetaan aina punainen. 
 
-Kokonaisuudessaan funktio näyttäisi siis tältä:
+Kokonaisuudessaan funktio näyttää tältä ja se pitää lisätä loppuun **ennen** koodia `pyglet.app.run()`:
 
 ```Python3
 def diskopallo(dt):
-    if ympyrä.color == (255, 0, 0):
+    if ympyrä.color == [255, 0, 0]:
         ympyrä.color = 0, 255, 0
-    elif ympyrä.color == (0, 255, 0):
+    elif ympyrä.color == [0, 255, 0]:
         ympyrä.color = 0, 0, 255
-    elif ympyrä.color == (0, 0, 255):
+    elif ympyrä.color == [0, 0, 255]:
         ympyrä.color = 255, 0, 0
     else:
         ympyrä.color = 0, 255, 0
@@ -111,11 +111,11 @@ def on_key_release(merkki, muuntaja):
 	ympyrä.color = 255, 255, 255
 
 def diskopallo(dt):
-    if ympyrä.color == (255, 0, 0):
+    if ympyrä.color == [255, 0, 0]:
         ympyrä.color = 0, 255, 0
-    elif ympyrä.color == (0, 255, 0):
+    elif ympyrä.color == [0, 255, 0]:
         ympyrä.color = 0, 0, 255
-    elif ympyrä.color == (0, 0, 255):
+    elif ympyrä.color == [0, 0, 255]:
         ympyrä.color = 255, 0, 0 
     else:
         ympyrä.color = 255, 0, 0
@@ -124,3 +124,7 @@ pyglet.clock.schedule_interval(diskopallo, 1)
 
 pyglet.app.run()
 ```
+
+---
+
+[Tehtävät](tehtävät.md)

@@ -1,7 +1,7 @@
 import pyglet
 
 ikkuna = pyglet.window.Window(width = 800, height = 600)
-ympyrä = pyglet.shapes.Circle(x = 400, y = 300, radius = 100, color = (255, 0, 0))
+ympyrä = pyglet.shapes.Circle(x = 400, y = 300, radius = 100)
 
 @ikkuna.event
 def on_draw():
@@ -20,11 +20,11 @@ def on_key_release(merkki, muuntaja):
 	ympyrä.color = 255, 255, 255
 
 def diskopallo(dt):
-    if ympyrä.color == (255, 0, 0):
+    if ympyrä.color == [255, 0, 0]:
         ympyrä.color = 0, 255, 0
-    elif ympyrä.color == (0, 255, 0):
+    elif ympyrä.color == [0, 255, 0]:
         ympyrä.color = 0, 0, 255
-    elif ympyrä.color == (0, 0, 255):
+    elif ympyrä.color == [0, 0, 255]:
         ympyrä.color = 255, 0, 0 
     else:
         ympyrä.color = 255, 0, 0
