@@ -51,7 +51,7 @@ def siirtyminen(dt):
     if ympyrä.x == 50:
         ympyrä.x = 200
     else:
-    ympyrä.x = 50
+        ympyrä.x = 50
 ```
 
 c) Aikatauluta funktio tapahtumaan kahden sekunnin välein.
