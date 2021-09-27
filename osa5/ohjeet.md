@@ -41,7 +41,6 @@ def funktio():
 funktion sisältöä ei voi kirjoittaa näin
 ```
 
-
 Funktiot ovat ohjelmoinnin monikäyttöisimpiä työkaluja ja niitä voi hyödyntää paljon muussakin kuin ikkunatapahtumissa ja aikatauluttamisessa. Emme kuitenkaan tutustu funktioiden muihin käyttötarkoituksiin nyt.
 
 ## Tehdään aikatauluttamalla diskopallo
@@ -92,7 +91,7 @@ Nyt meillä on diskopallo!
 import pyglet
 
 ikkuna = pyglet.window.Window(width = 800, height = 600)
-ympyrä = pyglet.shapes.Circle(x = 400, y = 300, radius = 100, color = (255, 0, 0))
+ympyrä = pyglet.shapes.Circle(x = 400, y = 300, radius = 100)
 
 @ikkuna.event
 def on_draw():

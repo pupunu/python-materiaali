@@ -1,3 +1,5 @@
-Tähän mennessä ohjelmassamme tapahtuu asioita vain silloin, kun pelaaja tekee jotain: painaa napin pohjaan tai päästää napista irti. Videopeleissä kuitenkin tapahtuu paljon asioita silloinkin, kun pelaaja ei tee mitään. Kun jotain tapahtuu omine aikoineen, tarvitsee aikatauluttaa milloin asia tapahtuu. Sitä varten pygletistä löytyy `clock`, joka on englantia ja tarkoittaa kelloa.
+# Osa 6 - Koordinaatit
 
-Kuitenkin ennenkuin lähdemme aikatauluttamaan mitään, meidän pitää tietää mitä asioita voimme aikatauluttaa.
+Laitetaan seuraavaksi ympyrämme liikkeelle. Liikkuminen on pohjimmiltaan sijainnin muuttumista, joten opetellaan miten sijainti toimii pygletissä, mistä sen saa tietää ja miten sitä voi muuttaa.
+
+Pygletissä
