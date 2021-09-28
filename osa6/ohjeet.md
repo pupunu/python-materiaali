@@ -47,16 +47,14 @@ Yleensä haluamme tehdä hahmoillemme jompaa kumpaa seuraavista:
 
 1. Haluamme siirtää sen tiettyyn paikkaan. Esimerkiksi jos haluamme, että pelin alussa pelaaja aloittaa aina pelikentän keskeltä.
 
-2. Haluamme sen liikkuvan johonkin suuntaan, esimerkiksi nuolta vasemmalle painaessa 20 pikseliä vasemmalle.
-
-Ensimmäisen toteuttaminen on helppoa. Voimme suoraan sanoa hahmolle minne mennä:
+Tämän toteuttaminen on helppoa. Voimme suoraan sanoa hahmolle minne mennä:
 
 ```Python3
 ympyrä.x = 400
 ympyrä.y = 300
 ```
 
-Sen sijaan hahmon liikkuminen vasemmalle 20 pikseliä on hiukan vaikeampaa.
+2. Haluamme sen liikkuvan johonkin suuntaan, esimerkiksi nuolta vasemmalle painaessa 20 pikseliä vasemmalle.
 
 Jos hahmo liikkuu vasemmalle, sen x-koordinaatti pienenee. Siis 20 pikseliä vasemmalle liikuttaessa `uusi x-koordinaatti = nykyinen x-koordinaatti - 20`. Tämän voi ohjelmoida seuraavalla tavalla:
 
@@ -74,6 +72,6 @@ ympyrä.x -= 20
 
 ---
 
-Tässä osassa käsittelimme vain koordinaattien teoriaan mutta seuraavassa osassa laitetaan ympyrämme liikkeelle!
+Tässä osassa käsittelimme vain koordinaattien teoriaa, mutta seuraavassa osassa laitetaan ympyrämme liikkeelle!
 
 [Seuraava osa](../osa7/ohjeet.md)

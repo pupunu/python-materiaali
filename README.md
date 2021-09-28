@@ -56,5 +56,15 @@
 - miten pallon koordinaatit vaikuttavat pallon sijaintiin pelikentällä
 - miten koordinaatteihin voi vaikuttaa kellon avulla
 
-### Osa 7 - Yhdistetään on_key_press ja aikataulutus
-- opitaan miten saada ympyrä liikkumaan ylös-alas ikkunassa.
+[Osa 6 ohjeet](osa6/ohjeet.md)
+
+### Osa 7 - Ohjattava ympyrä
+- Yhdistetään on_key_press ja aikataulutus
+- opitaan miten saada ympyrä liikkumaan ylös-alas ikkunassa
+
+[Osa 7 ohjeet](osa7/ohjeet.md)
+[Osa 7 tehtävät](osa7/tehtävät.md)
+
+### Osa 8 - Liikkumisen laajennus
+
+- Ohjelmoidaan ympyrä liikkumaan myös sivuille

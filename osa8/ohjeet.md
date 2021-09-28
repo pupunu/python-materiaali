@@ -1,4 +1,6 @@
-# Osa 7 - Ohjattava ympyrä
+OSA 7 ALKUPERÄINEN
+
+
 
 Nyt olemme oppineet niin paljon asioita, että voimme ohjelmoida ympyrän liikkumaan ylös-alas nappia painamalla! Sitä varten meidän pitää ohjelmoida:
 
@@ -30,13 +32,12 @@ pyglet.app.run()
 Haluamme tallentaa johonkin mitä nappia on painettu, eli mihin suuntaan olemme matkalla. Tehdään tätä varten _hashmap_. Emme nyt käy kovin syvällisesti mikä hashmap on, vaan voit kopioida alla olevan koodin:
 
 ```Python3
-suunta = {'ylös':False, 'alas':False}
+suunta = {'ylös':False, 'alas':False, 'vasemmalle':False, 'oikealle':False}
 ```
 
 Kirjoita koodi juuri ennen `on_draw()`-ikkunatapahtumaa.
 
 Hyödyllistä on tietää, että jos haluamme nyt saada tietää olemmeko menossa ylös, se on talennettuna muutujaan `suunta['ylös']`. Jos olemme menossa ylös, muuttujan arvo on `True`, eli totta, jos taas emme ole menossa ylös, se on `False`, eli epätosi.
-
 
 ## on_key_press
 
@@ -93,9 +94,9 @@ Kirjoita uusi koodi juuri ennen koodia `pyglet.app.run()`.
 
 Kokeile nyt ohjelmaasi ja paina näppäimistöltä nappia nuoli ylös!
 
-## Alaspäin
+## Muut suunnat
 
-Ohjelmoidaan vielä liikkuminen alaspäin. Englanniksi alas on `DOWN`, joten nappi alaspäin on `pyglet.window.key.DOWN`.
+Ohjelmoidaan vielä loput suunnat. Englanniksi alas on `DOWN`, vasemmalle `LEFT`, ja oikealle on `RIGHT`.
 
 Voimme käyttää edelleen tuttuja ehtolauseita ikkunatapahtumissa:
 
@@ -105,17 +106,25 @@ def on_key_press(merkki, muuntaja):
     if merkki == pyglet.window.key.UP:
         suunta['ylös'] = True
     elif merkki == pyglet.window.key.DOWN:  #Tällä rivillä alkaa lisätty koodi
-        suunta['alas'] = True               #Tämän rivin jälkeen alkaa taas vanha koodi
+        suunta['alas'] = True
+    elif merkki == pyglet.window.key.LEFT:
+        suunta['vasemmalle'] = True
+    elif merkki == pyglet.window.key.RIGHT:
+        suunta['oikealle'] = True           #Tämän rivin jälkeen alkaa taas vanha koodi
 
 @ikkuna.event
 def on_key_release(merkki, muuntaja):
     if merkki == pyglet.window.key.UP:
         suunta['ylös'] = False
     elif merkki == pyglet.window.key.DOWN:  #Tästä rivistä alkaa taas uusi koodi
-        suunta['alas'] = False              #Tähän loppuu uusi koodi
+        suunta['alas'] = False
+    elif merkki == pyglet.window.key.LEFT:
+        suunta['vasemmalle'] = False
+    elif merkki == pyglet.window.key.RIGHT:
+        suunta['oikealle'] = False          #Tähän loppuu uusi koodi
 ```
 
-Sen sijaan liikkuessa emme halua käyttää elif-komentoja. Miksi? Koska elif-komennoilla jos yksi ehto on totta, muita ehtoja ei huomioida. On kuitenkin mahdollista, että painetaan samaan aikaan sekä ylös että alas, jolloin pitäisi kulkea molempiin suuntiin (molempiin suuntiin kulkeminen on paikallaan pysymistä). Siis testataan vain jokainen suunta omalla ehtolauseellaan.
+Sen sijaan liikkuessa emme halua käyttää elif-komentoja. Miksi? Koska elif-komennoilla jos yksi ehto on totta, muita ehtoja ei huomioida. Suuntia voi kuitenkin olla useampia, esimerkiksi sekä vasemmalle että ylös. Testataan siis jokainen suunta erikseen omalla if-komennollaan. Muistetaan myös, että alaspäin y-koordinaatti pienenee, eli meidän tulee miinustaa siitä. Vasemmalle x-koordinaatti pienenee ja oikealle x-koordinaatti kasvaa.
 
 ```Python3
 def liiku(dt):
@@ -124,9 +133,15 @@ def liiku(dt):
 
     if suunta['alas'] == True:              #Tällä rivillä alkaa uusi koodi
         ympyrä.y = ympyrä.y - 10
+
+    if suunta['vasemmalle'] == True:
+        ympyrä.y = ympyrä.x - 10
+
+    if suunta['oikealle'] == True:
+        ympyrä.y = ympyrä.x + 10
 ```
 
-Nyt ympyrä liikkuu ikkunassa ylös alas!
+Nyt ympyrä liikkuu kentällä aivan kuten tahdot!
 
 ---
 
