@@ -58,11 +58,14 @@
 
 [Osa 6 ohjeet](osa6/ohjeet.md)
 
+[Osa 6 tehtävät](osa6/tehtävät.md)
+
 ### Osa 7 - Ohjattava ympyrä
 - Yhdistetään on_key_press ja aikataulutus
 - opitaan miten saada ympyrä liikkumaan ylös-alas ikkunassa
 
 [Osa 7 ohjeet](osa7/ohjeet.md)
+
 [Osa 7 tehtävät](osa7/tehtävät.md)
 
 ### Osa 8 - Liikkumisen laajennus
