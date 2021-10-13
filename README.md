@@ -71,3 +71,14 @@
 ### Osa 8 - Liikkumisen laajennus
 
 - Ohjelmoidaan ympyrä liikkumaan myös sivuille
+
+### Osa 9 - Lisää funktioita
+
+- Opetellaan käyttämään funktioita ohjelman lyhentämisessä.
+- Opetellaan kirjoittamaan funktioita, joissa on parametreja.
+
+### Osa 10 - Moduulit ja Visual Studio Code
+
+- Opetellaan käyttämään ohjelmointiin vscodea
+- Opetellaan jakamaan ohjelmaa osiin
+- Opetellaan käyttämään moduuleja

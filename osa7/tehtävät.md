@@ -14,7 +14,7 @@ c) Ohjelmoi niin, että muuttuja on epätosi jos lopetetaan näppäimen _nuoli y
 
 d) Tee funktio, joka muuttaa ympyrän koordinaatteja niin, että nuolta ylös painessa koordinaatit kasvavat kymmenellä.
 
-e) Aikatauluta funkti
+e) Aikatauluta funktio
 
 ---
 
@@ -47,3 +47,12 @@ b) Tee muuttuja suunta2, johon tallennetaan ympyrä2:n suunta.
 
 c) Ohjelmoi ympyrä2 liikkumaan eri näppäimistä kuin ensimmäinen ympyrä.
 
+---
+
+7. Haastavampi tehtävä
+
+Ohjelmoidaan ympyrä liikkumaan myös vasemmalle ja oikealle. Tätä varten meidän pitää laajentaa suuntaa.
+
+a) Muuta muuttujaa `suunta` niin, että siinä on myös suunnat vasemmalle ja oikealle: `suunta = {'ylös':False, 'alas':False, 'vasemmalle':False, 'oikealle':False}`
+
+b) Ohjelmoi liikkuminen vasemmalle ja oikealle.
