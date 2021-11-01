@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="keräilypelirakenne.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 200.68158 141.57387"
+   height="141.57387mm"
+   width="200.68158mm">
+  <defs
+     id="defs2">
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker1393"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1391"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker1353"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1351"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker1295"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1293"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
+    </marker>
+    <marker
+       inkscape:collect="always"
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1183"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1181" />
+    </marker>
+    <marker
+       inkscape:collect="always"
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker1155"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1153"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-maximized="1"
+     inkscape:window-y="232"
+     inkscape:window-x="-12"
+     inkscape:window-height="1906"
+     inkscape:window-width="3584"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="301.19534"
+     inkscape:cx="455.82311"
+     inkscape:zoom="1.6235942"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-4.6251942,-15.88319)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Taso 1">
+    <rect
+       ry="6.7866435"
+       rx="5.5705552"
+       y="16.6849"
+       x="56.973351"
+       height="58.784428"
+       width="88.90551"
+       id="rect833"
+       style="fill:#eaddff;fill-opacity:1;stroke:#945cff;stroke-width:1.60342;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       style="fill:#e8e8e8;fill-opacity:1;stroke:#000000;stroke-width:1.75053;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect833-6"
+       width="92.792633"
+       height="67.130424"
+       x="5.5004592"
+       y="88.982674"
+       rx="5.8141112"
+       ry="7.7501864" />
+    <rect
+       ry="7.8197575"
+       rx="6.0089483"
+       y="88.830231"
+       x="108.51077"
+       height="67.73304"
+       width="95.902214"
+       id="rect833-6-9"
+       style="fill:#e8e8e8;fill-opacity:1;stroke:#000000;stroke-width:1.78758;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="path865"
+       d="M 84.170945,58.47165 60.599232,106.51591"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1183)" />
+    <path
+       id="path867"
+       d="m 115.89163,57.917731 c 3.68799,4.826917 28.02406,48.016549 28.02406,48.016549"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1393)" />
+    <path
+       id="path869"
+       d="m 129.45981,122.96326 -43.089687,0.45041"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1155)" />
+    <text
+       id="text1247"
+       y="99.691826"
+       x="13.812723"
+       style="font-size:7.05556px;line-height:1.25;font-family:Comfortaa;-inkscape-font-specification:Comfortaa;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.264583"
+         y="99.691826"
+         x="13.812723"
+         id="tspan1245"
+         sodipodi:role="line">data</tspan></text>
+    <text
+       id="text1251"
+       y="27.775581"
+       x="82.425919"
+       style="font-size:7.05556px;line-height:1.25;font-family:Comfortaa;-inkscape-font-specification:Comfortaa;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.264583"
+         y="27.775581"
+         x="82.425919"
+         id="tspan1249"
+         sodipodi:role="line">keräilypeli</tspan></text>
+    <text
+       id="text1255"
+       y="121.66331"
+       x="140.95261"
+       style="font-size:7.05556px;line-height:1.25;font-family:Comfortaa;-inkscape-font-specification:Comfortaa;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.264583"
+         y="121.66331"
+         x="140.95261"
+         id="tspan1253"
+         sodipodi:role="line">pelin funktiot</tspan><tspan
+         id="tspan1257"
+         style="stroke-width:0.264583"
+         y="130.48276"
+         x="140.95261"
+         sodipodi:role="line">ja toiminta</tspan></text>
+    <text
+       id="text1261"
+       y="42.939548"
+       x="61.406559"
+       style="font-size:7.05556px;line-height:1.25;font-family:Comfortaa;-inkscape-font-specification:Comfortaa;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.264583"
+         y="42.939548"
+         x="61.406559"
+         id="tspan1259"
+         sodipodi:role="line">kun tämän käynnistää,</tspan><tspan
+         id="tspan1263"
+         style="stroke-width:0.264583"
+         y="51.758999"
+         x="61.406559"
+         sodipodi:role="line">peli lähtee käyntiin</tspan></text>
+    <text
+       id="text1267"
+       y="120.00271"
+       x="11.289758"
+       style="font-size:7.05556px;line-height:1.25;font-family:Comfortaa;-inkscape-font-specification:Comfortaa;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.264583"
+         y="120.00271"
+         x="11.289758"
+         id="tspan1265"
+         sodipodi:role="line">täällä luodaan hahmot</tspan><tspan
+         id="tspan1271"
+         style="stroke-width:0.264583"
+         y="128.82216"
+         x="11.289758"
+         sodipodi:role="line">ja tallennetaan tieto</tspan></text>
+  </g>
+</svg>
