@@ -26,6 +26,8 @@ ikkuna = pyglet.window.Window(width = 800, height = 600, caption = 'Keräilypeli
 pyglet.app.run()
 ```
 
+Kaikki ikkunatapahtumat tullaa kirjoittamaan tähän tiedostoon.
+
 ## Luodaan pelaajahahmo
 
 Luodaan seuraavaksi tiedosto, missä luomme ja mihin säilömme kaiken pelin datan. Lisätään kansioon uusi tiedosto nimeltä `data.py`. Avaa tiedosto.
@@ -53,4 +55,57 @@ VALKOINEN = 0, 0, 0
 
 pelaaja = pyglet.shapes.Circle(x = 100, y = 100, color = PUNAINEN, radius = 40)
 ```
+
+## Laitetaan ikkuna piirtämään pelaaja
+
+Nyt laitetaan pelaaja näkymään ikkunassa. Kirjoitetaan ikkunatapahtumat tiedostoon `keräilypeli.py`.
+
+Lisätään tiedostoon keräilypeli.py ikkunatapahtuma `on_draw`. Jotta voimme ikkunatapahtumassa piirtää pelaajahahmon, meidän tulee ottaa käyttöö tiedosto, jossa pelaajahahmo luodaan. Lisätään siis `import pyglet`in jälkeen `import data`.
+
+Nyt voimme käyttää pelaajaa. keräilypeli.py:ssä koodilla `data.pelaaja`. Keräilypeli.py:n pitäisi näyttää nyt suunnilleen seuraavalta:
+
+```Python3
+import pyglet
+import data
+
+ikkuna = pyglet.window.Window(width = 800, height = 600, caption = 'Keräilypeli')
+
+@ikkuna.event
+def on_draw():
+    ikkuna.clear()
+    data.pelaaja.draw()
+
+pyglet.app.run()
+```
+
+## Ohjelmoidaan pelaajan liikkuminen
+
+Toteutetaan liikkuminen niin, että tallennetaan muistiin mihin suuntaan ollaan liikkumassa, ja liikkumissuunnan perusteella liikutetaan koko ajan hahmoa. Meidän tarvitsee siis:
+1. Luoda mihin tallennamme tiedon liikkumissuunnasta
+2. Ohjelmoida napin painaminen muuttamaan liikkumissuntaa
+3. Ohjelmoida napin painamisen lopettaminen muuttamaan liikkumissuuntaa
+4. Luoda funktio, joka liikuttaa hahmoa liikkumissuunnan mukaisesti.
+5. Aikatauluttaa funktio.
+
+Aloitetaan!
+
+### Tallennetaan suunta
+
+Liikkumissuunta on pelin dataa. Luodaan se siis tiedostossa `data.py`.
+
+Liikkumissuunta kannattaa tallentaa dictionaryyn. Käytetään seuraavanlaista:
+
+```Python3
+liikkumissuunta = ['ylös' : False, 'alas' : False, 'vasemmalle' : False, 'oikealle' : False]
+```
+
+Nyt jos haluamme tietää esimerkiksi liikutaanko ylös, tieto siitä löytyy dictistä komennolla `liikkumissuunta['ylös']`. Tällä hetkellä kaikkien suuntien arvo on `False` eli epätosi. Toisin sanoen mihinkään ei liikuta.
+
+### Laitetaan pelaaja liikkeelle
+
+Tehdään seuraavaksi funktio, joka muuttaa liikkumissuunnan johonkin suuntaan todeksi, jos painetaan suuntaa vastaavaa nuolinäppäintä. Nuolinäppäinten nimet ovat pygletissä: 
+- Ylösnuoli on `pyglet.window.key.UP`
+- Alasnuoli on `pyglet.window.key.DOWN`
+- Nuoli vasemmalle on `pyglet.window.key.LEFT`
+- Nuoli oikealle on `pyglet.window.key.RIGHT`
 

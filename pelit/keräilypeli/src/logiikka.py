@@ -3,7 +3,6 @@ from data import *
 import random
 
 def nappia_painaessa(merkki):
-    global liikkuuko
     if merkki == pyglet.window.key.W:
         liikkuuko['ylös'] = True
     elif merkki == pyglet.window.key.A:
@@ -14,7 +13,6 @@ def nappia_painaessa(merkki):
         liikkuuko['oikealle'] = True
 
 def napin_painamisen_loppuessa(merkki):
-    global liikkuuko
     if merkki == pyglet.window.key.W:
         liikkuuko['ylös'] = False
     elif merkki == pyglet.window.key.A:
