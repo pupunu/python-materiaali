@@ -101,11 +101,43 @@ liikkumissuunta = ['ylös' : False, 'alas' : False, 'vasemmalle' : False, 'oikea
 
 Nyt jos haluamme tietää esimerkiksi liikutaanko ylös, tieto siitä löytyy dictistä komennolla `liikkumissuunta['ylös']`. Tällä hetkellä kaikkien suuntien arvo on `False` eli epätosi. Toisin sanoen mihinkään ei liikuta.
 
-### Laitetaan pelaaja liikkeelle
+### Liikkumissuunnan muuttuminen
 
-Tehdään seuraavaksi funktio, joka muuttaa liikkumissuunnan johonkin suuntaan todeksi, jos painetaan suuntaa vastaavaa nuolinäppäintä. Nuolinäppäinten nimet ovat pygletissä: 
+Tehdään seuraavaksi funktio, joka muuttaa liikkumissuunnan napinpainamisen mukaan. Nuolinäppäinten nimet ovat pygletissä: 
 - Ylösnuoli on `pyglet.window.key.UP`
 - Alasnuoli on `pyglet.window.key.DOWN`
 - Nuoli vasemmalle on `pyglet.window.key.LEFT`
 - Nuoli oikealle on `pyglet.window.key.RIGHT`
+
+Ohjelmoidaan ensin vain ylöspäin liikkuminen. Siihen tarvitsemme ikkunatapahtuman `on_key_press` tiedostoon `keräilypeli.py`
+
+Ikkunatapahtuman rakenne on seuraavanlaien:
+
+```Python3
+@ikkuna.event
+def on_key_press(merkki, muuntaja):
+    if merkki == pyglet.window.key.UP:
+        data.liikkumissuunta['ylös'] = True
+```
+
+Kiinnitä huomiota siihen, että liikkumissuunta on tallennettu erilliseen tiedostoon, joten siihen tulee viitata `data.liikkumissuunta`.
+
+### Liikkumisen loppuminen
+
+Halutaan että liikkuminen loppuu, kun napin painaminen lopetetaan. Liikkumissuunta pitää siis muutta epätodeksi, kun napin painaminen loppuu.
+
+Tehdään tämäkin ensin vain suunnalle ylös ikkunatapahtumaan `on_key_release`, tiedostoon keräilypeli.py.
+
+```Python3
+@ikkuna.event
+def on_key_release(merkki, muuntaja):
+    if merkki == pyglet.window.key.UP:
+        data.liikkumissuunta['ylös'] = False
+```
+
+### Laitetaan pelaaja liikkeelle
+
+Nyt meillä on tieto siitä painetaan nuolta ylöspäin, mutta emme tee tiedolla vielä mitään. Ohjelmoidaan seuraavaksi funktio, joka muuttaa pelaajan sijaintia jos sen liikkumissuunta on ylös.
+
+Voisimme kirjoittaa funktion suoraan keräilypeli.py-tiedosotoon, mutta on hyvätapaista jakaa pelin koodia loogisesti. Hahmon liikkuminen on pelin loogista toimintaa, joten tehdään sitä varten oma tiedostonsa nimeltä `logiikka.py`.
 
