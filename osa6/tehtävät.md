@@ -7,7 +7,7 @@
 
 a) Käynnistä ohjelma ja katso missä ympyrä sijaitsee.
 
-b) Kirjoita nyt ohjelmaan `ympyrä.x = 100` ja käynnistä se uudestaan. Mitä tapahtuu?
+b) Kirjoita nyt ohjelmaan `ympyrä.x = 100` ja käynnistä se uudestaan. Mitä tapahtuu? Entä jos koodinpätkä on toisessa kohtaa koodia, vaikuttaako se ohjelmaan?
 
 c) Korvaa äsken lisäämäsi koodi. Kirjoita sen tilalle `ympyrä.x = 800`. Käynnistä ohjelma uudelleen. Mitä tapahtuu?
 
@@ -29,3 +29,8 @@ b) Muokkaa koodia niin, että ympyrä on aivan yläreunassa.
 c) Muokkaa koodia niin, että ympyrä on aivan oikeassa alareunassa.
 
 
+4. Seuraavaksi hyödynnämme aikaisemmin opittuja ikkunatapahtumia. Voit lisätä nämä haluamaasi ohjelmaan.
+
+a) Ohjelmassa ympyrä liikkuu aivan yläreunaan painamalla nuoliylösnäppäintä. Pygletissä näppäimen nimi on `pyglet.window.key.UP`.
+b) Lisäksi ohjelmassa ympyrä liikkuu aivan alareunaan painamalla nuolialasnäppäintä. Näppäimen nimi on `pyglet.window.key.DOWN`.
+c) Muuta ohjelma sellaiseksi, että napinpainallukset siirtävät ympyrää ylemmäs ja alemmas. Nyt ympyrää pitäisi pystyä ohjaamaan pystysuunnassa näpyttämällä ylös- ja alasnäppäimiä.
