@@ -25,7 +25,7 @@ Tässä kuvassa taas on torni. Torni on samalla rivillä kuin kirjain f ja numer
 
 ## Pygletin ikkunan koordinaatit
 
-Pygletin ikkunassa koordinaatit toimivat käytännössä samalla tavalla, mutta kirjainten ja numeroiden sijaan käytetään pelkkiä kirjaimia.
+Pygletin ikkunassa koordinaatit toimivat käytännössä samalla tavalla, mutta kirjainten ja numeroiden sijaan käytetään pelkkiä numeroita.
 
 X-koordinaatti kertoo vaakasuuntaisen sijainnin, eli kuinka oikealla tai vasemmalla hahmo on. Y-koordinaatti kertoo kuinka ylhäällä tai alhaalla hahmo on.
 
