@@ -2,7 +2,6 @@
 
 1. Tarvitset jokaisessa tehtävässä ohjelmaa, jolla on ikkuna. Ikkunan koon tulee olla leveydeltään 800 ja korkeudeltaan 600, ja siihen piirretään ympyrä. Ohjelmoi kyseinen ohjelma.
 
----
 
 2. Ohjelmoi seuraavat asiat edellisen tehtävän ohjelmaan juuri ennen koodia `pyglet.app.run()`.
 
@@ -14,7 +13,6 @@ c) Korvaa äsken lisäämäsi koodi. Kirjoita sen tilalle `ympyrä.x = 800`. Kä
 
 d) Lisää koodi `ympyrä.y = 50`. Käynnistä ohjelma uudelleen ja tutki mitä tapahtuu.
 
----
 
 3. Käytä ohjelmaa, jonka teit tehtävässä yksi.
 
@@ -30,5 +28,4 @@ b) Muokkaa koodia niin, että ympyrä on aivan yläreunassa.
 
 c) Muokkaa koodia niin, että ympyrä on aivan oikeassa alareunassa.
 
----
 
